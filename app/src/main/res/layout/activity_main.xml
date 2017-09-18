@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <RelativeLayout
+        android:id="@+id/rel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -35,7 +36,7 @@
             android:layout_height="200dp"
             android:layout_alignParentRight="true"
             android:drawableTop="@drawable/mm"
-            android:onClick="submitMM"
+            android:onClick="submitmm"
 
             android:text="Посчитать молекулярную массу"
 
@@ -48,7 +49,7 @@
         android:orientation="horizontal"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-
+        android:layout_below="@id/rel"
         >
 
         <Button
@@ -60,7 +61,7 @@
 
 
             android:text="Таблица Менделеева и полезная инфа"
-            android:onClick="submitMM"
+            android:onClick="submitTable"
             android:drawableTop="@drawable/info"
 
 
@@ -82,29 +83,40 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:orientation="horizontal"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         >
 
         <Button
-            android:id="@+id/contacts_button"
-            android:layout_width="120dp"
-            android:layout_height="70dp"
+            android:id="@+id/lang_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
             android:layout_centerHorizontal="true"
-
-
-
-
-            android:text="Помощь и контакты"
+            android:text="Ru"
+            android:layout_alignParentLeft="true"
             android:onClick="submitMM"
-
-
-
             />
+        <Button
+            android:id="@+id/help_button"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:text="Контакты"
+            android:onClick="submitMM"
+            />
+        <Button
+            android:id="@+id/contacts_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
 
-
+            android:layout_alignParentRight="true"
+            android:text="Помощь"
+            android:onClick="submitMM"
+            />
     </RelativeLayout >
 
-</LinearLayout>
+</RelativeLayout>

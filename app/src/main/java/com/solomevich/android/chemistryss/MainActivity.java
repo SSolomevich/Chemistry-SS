@@ -19,7 +19,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void submitMM(View view) {
-        Intent intent = new Intent(MainActivity.this, Equalize.class);
+        Intent intent = new Intent(MainActivity.this, InDev.class);
+        startActivity(intent);
+    }
+
+    public void submitmm(View view) {
+        Intent intent = new Intent(MainActivity.this, MM.class);
+        startActivity(intent);
+    }
+
+    public void submitTable(View view) {
+        Intent intent = new Intent(MainActivity.this, Table.class);
         startActivity(intent);
     }
 

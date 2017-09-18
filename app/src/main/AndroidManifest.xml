@@ -22,6 +22,26 @@
         <activity android:name=".Result"
             >
         </activity>
+
+
+        <activity android:name=".InDev"
+            >
+        </activity>
+
+        <activity android:name=".ResultMM"
+            >
+        </activity>
+
+        <activity android:name=".MM"
+            >
+        </activity>
+
+        <activity android:name=".Table"
+            >
+        </activity>
+        <activity android:name=".TableResult"
+            >
+        </activity>
     </application>
 
 </manifest>
