@@ -2,6 +2,7 @@ package com.solomevich.android.chemistryss;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -17,6 +18,7 @@ public class Table extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_table);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
 
 
