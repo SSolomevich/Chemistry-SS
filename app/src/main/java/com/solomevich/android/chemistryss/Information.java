@@ -38,4 +38,9 @@ public class Information extends Activity {
         startActivity(intent);
     }
 
+    public void getIK(View view) {
+        Intent intent = new Intent(Information.this, TableIK.class);
+        startActivity(intent);
+    }
+
 }
