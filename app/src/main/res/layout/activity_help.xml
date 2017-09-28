@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:text="О разделе ''УРАВНЯТЬ РЕАКЦИЮ''"
+        android:onClick="getHelpEqualize"
+        android:background="@color/background_color_buttoms"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        />
+
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:text="О разделе ''ВЫЧИСЛИТЬ МОЛЕКУЛЯРНУЮ МАССУ''"
+        android:onClick="getHelpMM"
+        android:background="@color/background_color_buttoms"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:text="О разделе ''ТАБЛИЦА МЕНДЕЛЕЕВА''"
+        android:onClick="getHelpTable"
+        android:background="@color/background_color_buttoms"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+
+        />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:text="О разделе ''ПОЛЕЗНАЯ ИНФОРМАЦИЯ''"
+        android:onClick="getHelpInfo"
+        android:background="@color/background_color_buttoms"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:id="@+id/price_text_view"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Остались вопросы? Присылайте по адресу:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#0040FF"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:id="@+id/p"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="chemistrySS.help@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:text="Мы обязательно ответим!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:fontFamily="sans-serif"
+        android:textColor="#0040FF"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+</LinearLayout>
