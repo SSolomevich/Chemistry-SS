@@ -2,6 +2,7 @@ package com.solomevich.android.chemistryss;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.pm.ActivityInfo;
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -19,7 +20,7 @@ public class TableSolution extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_table_solution);
-        setContentView(new MyImageView(this));
-
+//        setContentView(new MyImageView(this));
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
 }
