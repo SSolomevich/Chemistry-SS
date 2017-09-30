@@ -43,4 +43,9 @@ public class Information extends Activity {
         startActivity(intent);
     }
 
+    public void getNMRH(View view) {
+        Intent intent = new Intent(Information.this, NMR_1H.class);
+        startActivity(intent);
+    }
+
 }
