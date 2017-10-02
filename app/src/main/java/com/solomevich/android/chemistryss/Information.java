@@ -47,5 +47,8 @@ public class Information extends Activity {
         Intent intent = new Intent(Information.this, NMR_1H.class);
         startActivity(intent);
     }
-
+    public void getNMRC (View view) {
+        Intent intent = new Intent(Information.this, NMR_13C.class);
+        startActivity(intent);
+    }
 }
