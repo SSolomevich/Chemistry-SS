@@ -2,10 +2,49 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:text="Точное значение молекулярной массы"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:textColor="@color/nameApp"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/double_molecular_weight"
+        android:layout_marginTop="6dp"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="46dp"
+        android:text="Округленное значение молекулярной массы"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/nameApp"
+        android:padding="8dp"
+        android:gravity="center_horizontal"
+        />
     <TextView
         android:id="@+id/price_text_view"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="6dp"
         android:text=""
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,4 +53,6 @@
         android:textColor="@android:color/black"
         android:padding="8dp"
         />
+
+
 </LinearLayout>

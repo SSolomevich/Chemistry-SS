@@ -1,49 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@android:color/white">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/d"
+        />
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout android:id="@+id/e"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout android:id="@+id/eext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@null"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/ext"
+
+        android:layout_marginTop="10dp"
+        android:text="@string/main_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="55sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/nameApp"
+        android:padding="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    </LinearLayout>
     <RelativeLayout
         android:id="@+id/rel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_margin="16dp"
 
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+
+android:layout_below="@+id/eext"
         >
 
-    <Button
-        android:id="@+id/equalize_button"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
+        <LinearLayout  android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@null">
+            <Button
+                android:id="@+id/equalize_button"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
 
-        android:layout_alignParentLeft="true"
+                android:layout_alignParentLeft="true"
+                android:background="@null"
+                android:textSize="15sp"
+                android:text="@string/main_equalize"
+
+                android:onClick="submitOrder"
+                android:drawableTop="@drawable/bluew"
 
 
-        android:text="Уравнять реакцию"
-        android:onClick="submitOrder"
-        android:drawableTop="@drawable/equal"
+                />
 
+        </LinearLayout>
 
-        />
-
-        <Button
-            android:id="@+id/mm_button"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
             android:layout_alignParentRight="true"
-            android:drawableTop="@drawable/mm"
-            android:onClick="submitmm"
+            android:background="@null"
+            >
+            <Button
+                android:id="@+id/mm_button"
+                android:layout_width="130dp"
+                android:layout_height="180dp"
+                android:background="@null"
+                android:layout_alignParentLeft="true"
+                android:textSize="15sp"
 
-            android:text="Посчитать молекулярную массу"
+                android:text="@string/main_mm"
+                android:onClick="submitmm"
+                android:drawableTop="@drawable/blue"
 
-            />
+
+                />
+
+
+        </LinearLayout>
     </RelativeLayout >
 
-    <RelativeLayout
+    <RelativeLayout android:id="@+id/e2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -54,31 +117,34 @@
 
         <Button
             android:id="@+id/table_button"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
 
             android:layout_alignParentLeft="true"
-
-
-            android:text="Таблица Менделеева и полезная инфа"
+            android:background="@null"
+            android:textSize="15sp"
+            android:text="@string/main_table"
             android:onClick="submitTable"
-            android:drawableTop="@drawable/info"
+            android:drawableTop="@drawable/bluet"
 
 
             />
 
         <Button
             android:id="@+id/next_button"
-            android:layout_width="150dp"
-            android:layout_height="200dp"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
             android:layout_alignParentRight="true"
-            android:drawableTop="@drawable/task"
-            android:onClick="submitMM"
-
-            android:text="Решить задачу (В разработке)"
+            android:drawableTop="@drawable/bluei"
+            android:onClick="information"
+            android:background="@null"
+            android:text="@string/main_info"
+            android:textSize="15sp"
 
             />
     </RelativeLayout >
+
+
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -87,8 +153,9 @@
         android:orientation="horizontal"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="55dp"
         android:layout_marginBottom="10dp"
+
         >
 
         <Button
@@ -96,27 +163,37 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
-            android:text="Ru"
+            android:text="@string/main_help"
             android:layout_alignParentLeft="true"
-            android:onClick="submitMM"
+            android:onClick="getHelp"
+            android:background="@color/background_color_buttoms"
+            android:textSize="13dp"
+            android:textColor="@color/main_button"
             />
         <Button
             android:id="@+id/help_button"
             android:layout_width="110dp"
             android:layout_height="50dp"
             android:layout_centerHorizontal="true"
-            android:text="Контакты"
-            android:onClick="submitMM"
+            android:text="@string/main_contacts"
+            android:onClick="contacts"
+            android:background="@color/background_color_buttoms"
+            android:textSize="13dp"
+            android:textColor="@color/main_button"
             />
         <Button
             android:id="@+id/contacts_button"
             android:layout_width="100dp"
             android:layout_height="50dp"
-
+android:textSize="13dp"
             android:layout_alignParentRight="true"
-            android:text="Помощь"
+            android:text="@string/main_inDev"
             android:onClick="submitMM"
+            android:background="@color/background_color_buttoms"
+            android:textColor="@color/main_button"
             />
     </RelativeLayout >
+    </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

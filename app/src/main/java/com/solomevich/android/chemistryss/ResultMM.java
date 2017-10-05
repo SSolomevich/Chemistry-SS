@@ -7,6 +7,7 @@ import android.widget.TextView;
 import com.solomevich.android.chemistryss.dao.ElementsDaoImpl;
 import com.solomevich.android.chemistryss.model.Elements;
 
+import java.io.UnsupportedEncodingException;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -24,17 +25,35 @@ public class ResultMM extends Activity {
 
         ElementsDaoImpl elementsDao = new ElementsDaoImpl();
         List<Elements> list = elementsDao.listElements();
-        String equation = String.valueOf(calculation(user,list));;
-        TextView infoTextView = (TextView)findViewById(R.id.price_text_view);
-        infoTextView.setText(equation);
+        String equation = String.valueOf(calculation(user,list));
+        String equation1 = String.valueOf(calculation1(user,list));
+
+        if(equation.equals("0")){
+            TextView doubleMolecularWeight = (TextView)findViewById(R.id.double_molecular_weight);
+            doubleMolecularWeight.setText("(");
+
+            TextView infoTextView = (TextView)findViewById(R.id.price_text_view);
+            infoTextView.setText("(");
+        }
+        else {
+            TextView doubleMolecularWeight = (TextView) findViewById(R.id.double_molecular_weight);
+            doubleMolecularWeight.setText(equation1);
+
+            TextView infoTextView = (TextView) findViewById(R.id.price_text_view);
+            infoTextView.setText(equation);
+        }
 
     }
 
     public Integer calculation(String equation, List<Elements> list){
-
+        equation = equation.trim();
+        equation = equation.replaceAll(" ", "");
         double molecularWeight=0;
         Result r = new Result();
         Map<String,Integer> map = r.helpEqualizeEquation(equation);
+        if (map.size()==0){
+            return 0;
+        }
         Set<Map.Entry<String, Integer>> set = map.entrySet();
 
 
@@ -58,12 +77,38 @@ public class ResultMM extends Activity {
         else result = (int)molecularWeight +1;
 
 
-        System.out.println("molecularWeight"+molecularWeight);
+
         return result;
     }
 
 
 
+    public Double calculation1(String equation, List<Elements> list){
+        equation = equation.trim();
+        equation = equation.replaceAll(" ", "");
+        double molecularWeight=0;
+        Result r = new Result();
+        Map<String,Integer> map = r.helpEqualizeEquation(equation);
+        Set<Map.Entry<String, Integer>> set = map.entrySet();
 
+
+
+
+        for (int i=0;i<list.size();i++){
+            System.out.println(list.get(i).getElement());
+        }
+        for (int i=0;i<list.size();i++){
+            for (Map.Entry<String, Integer> me : set) {
+                if (me.getKey().equals(list.get(i).getElement())){
+                    double  weight = list.get(i).getWeight();
+                    molecularWeight=molecularWeight+weight*me.getValue();
+                }
+            }
+        }
+
+
+
+        return molecularWeight;
+    }
 
 }

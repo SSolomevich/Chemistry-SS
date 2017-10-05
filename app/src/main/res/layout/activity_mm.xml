@@ -2,27 +2,234 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="1"
+            android:background="@color/main_button_grey"
+            android:onClick="submit1"
+            android:text="@string/equalize_0"
+
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:onClick="submit2"
+            android:layout_weight="1"
+            android:text="@string/equalize_1"
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:onClick="submit3"
+            android:layout_weight="1"
+            android:text="@string/equalize_2"
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:onClick="submit4"
+            android:layout_weight="1"
+            android:text="@string/equalize_3"
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            /><Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:onClick="submit5"
+        android:layout_weight="1"
+        android:text="@string/equalize_4"
+        android:background="@color/main_button_grey"
+        android:layout_marginLeft="4dp"
+        />
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+
+            android:onClick="submit6"
+            android:layout_weight="1"
+            android:text="@string/equalize_5"
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            />
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:onClick="submit7"
+            android:layout_weight="1"
+            android:text="@string/equalize_6"
+
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:onClick="submit8"
+            android:layout_weight="1"
+            android:text="@string/equalize_7"
+
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            />
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:onClick="submit9"
+            android:layout_weight="1"
+            android:text="@string/equalize_8"
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            />
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:onClick="submit10"
+            android:layout_weight="1"
+            android:text="@string/equalize_9"
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            />
+        </LinearLayout>
 
 
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="6dp"
+        >
+
+
+
+
+        <Button
+            android:id="@+id/buttonSkobka1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:onClick="submit13"
+            android:layout_weight="1"
+            android:text="@string/equalize_skobka1"
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            />
+        <Button
+            android:id="@+id/buttonSkobka2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:onClick="submit14"
+            android:layout_weight="1"
+            android:text="@string/equalize_skobka2"
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            />
+        <Button
+            android:id="@+id/buttonSkobka3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:onClick="submit15"
+            android:layout_weight="1"
+            android:text="@string/equalize_skobka3"
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            />
+        <Button
+            android:id="@+id/buttonSkobka4"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:onClick="submit16"
+            android:layout_weight="1"
+            android:text="@string/equalize_skobka4"
+            android:background="@color/main_button_grey"
+            android:layout_marginLeft="4dp"
+            />
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/price_text_view"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/mm_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/nameApp"
+        android:padding="8dp"
+android:gravity="center"
+        />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        >
     <EditText
         android:id="@+id/eq"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:textSize="20sp"/>
+        android:textSize="24sp"
+
+       />
 
     <Button
         android:id="@+id/next_button"
         android:layout_width="150dp"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:textSize="20sp"
         android:onClick="submit"
-
-        android:text="Вычислить"
-
+        android:textColor="@color/main_button"
+        android:text="@string/mm_equalize"
+        android:background="@color/background_color_buttoms"
+        android:layout_marginTop="20dp"
         />
 
+</LinearLayout>
 
 
 </LinearLayout>
