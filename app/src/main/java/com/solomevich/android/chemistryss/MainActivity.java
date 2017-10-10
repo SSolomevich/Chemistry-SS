@@ -54,6 +54,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void search(View view) {
+        Intent intent = new Intent(MainActivity.this, Search.class);
+        startActivity(intent);
+    }
+
+
     public void information(View view) {
         Intent intent = new Intent(MainActivity.this, Information.class);
         startActivity(intent);
