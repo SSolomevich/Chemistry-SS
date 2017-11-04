@@ -1,63 +1,150 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
 
+
+   >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout android:id="@+id/e"
+                    android:orientation="vertical" android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="10dp">
 
         <Button
-
-            android:layout_width="220dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp"
-
-            android:text="@string/info_table_sol"
-            android:layout_alignParentLeft="true"
-            android:onClick="getTableSolution"
-            android:background="@color/background_color_buttoms"
-            />
-        <Button
-
             android:layout_margin="10dp"
             android:layout_width="220dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/info_table_sol"
+            android:layout_centerHorizontal="true"
+            android:onClick="getTableSolution"
+            android:background="@color/background_color_buttoms"
+            android:textColor="@color/main_button"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
             android:layout_centerHorizontal="true"
             android:text="@string/info_row_met"
             android:onClick="getRowMettals"
             android:background="@color/background_color_buttoms"
+            android:textColor="@color/main_button"
             android:layout_gravity="center"
             />
         <Button
             android:layout_width="220dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
             android:layout_margin="10dp"
             android:layout_alignParentRight="true"
             android:text="@string/info_color_flame"
             android:onClick="getColorFlame"
             android:background="@color/background_color_buttoms"
             android:layout_gravity="center"
+            android:textColor="@color/main_button"
             />
         <Button
             android:layout_width="220dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
             android:layout_margin="10dp"
             android:layout_alignParentRight="true"
             android:text="@string/info_color_indicator"
             android:onClick="getIndicator"
             android:background="@color/background_color_buttoms"
             android:layout_gravity="center"
+            android:textColor="@color/main_button"
             />
         <Button
             android:layout_width="220dp"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
             android:layout_margin="10dp"
+
             android:layout_alignParentRight="true"
             android:text="@string/info_IK"
             android:onClick="getIK"
             android:background="@color/background_color_buttoms"
             android:layout_gravity="center"
+            android:textColor="@color/main_button"
             />
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/info_H1NMR"
+            android:onClick="getNMRH"
+            android:background="@color/background_color_buttoms"
+            android:layout_gravity="center"
+            android:textColor="@color/main_button"
+            />
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/info_NMR"
+            android:onClick="getNMRC"
+            android:background="@color/background_color_buttoms"
+            android:layout_gravity="center"
+            android:textColor="@color/main_button"
+            />
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/info_reactions_cations"
+            android:onClick="getReactionsCations"
+            android:background="@color/background_color_buttoms"
+            android:layout_gravity="center"
+            android:textColor="@color/main_button"
+            />
+
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/info_reactions_anions"
+            android:onClick="getReactionsAnions"
+            android:background="@color/background_color_buttoms"
+            android:layout_gravity="center"
+            android:textColor="@color/main_button"
+            />
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:text="@string/info_reactions_organic_comp"
+            android:onClick="getReactionsOrganicComp"
+            android:background="@color/background_color_buttoms"
+            android:layout_gravity="center"
+            android:textColor="@color/main_button"
+            />
+
+
+                </LinearLayout>
+        </ScrollView>
 
 </LinearLayout>

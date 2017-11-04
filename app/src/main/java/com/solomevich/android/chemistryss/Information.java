@@ -51,4 +51,19 @@ public class Information extends Activity {
         Intent intent = new Intent(Information.this, NMR_13C.class);
         startActivity(intent);
     }
+
+    public void getReactionsCations (View view) {
+        Intent intent = new Intent(Information.this, ReactionsCations.class);
+        startActivity(intent);
+    }
+
+    public void getReactionsAnions (View view) {
+        Intent intent = new Intent(Information.this, ReactionsAnions.class);
+        startActivity(intent);
+    }
+
+    public void getReactionsOrganicComp (View view) {
+        Intent intent = new Intent(Information.this, ReactionsOrganicComp.class);
+        startActivity(intent);
+    }
 }
