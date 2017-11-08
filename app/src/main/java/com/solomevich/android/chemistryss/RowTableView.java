@@ -21,7 +21,7 @@ public class RowTableView extends View {
         super(context);
         image = context.getResources().getDrawable(R.drawable.ryadnapryazheniymetallov);
         setFocusable(true);
-        image.setBounds(0, 0, image.getIntrinsicWidth(), image.getIntrinsicHeight());
+        image.setBounds(0, 0, image.getIntrinsicWidth()-1000, image.getIntrinsicHeight());
         scaleGestureDetector = new ScaleGestureDetector(context, new  RowTableView.ScaleListener());
     }
 

@@ -1,6 +1,7 @@
 package com.solomevich.android.chemistryss;
 
 import android.app.Activity;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
 /**
@@ -14,6 +15,6 @@ public class RowMettals extends Activity {
 
         setContentView(R.layout.activity_table_solution);
         setContentView(new RowTableView(this));
-
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     }
 }
