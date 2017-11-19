@@ -1,3 +1,1726 @@
 <resources>
     <string name="app_name">Chemistry SS</string>
+
+    <string name="H2SO4_compound">Серная кислота</string>
+    <string name="H2SO4_formula">H2SO4</string>
+
+    <string name="main_name">Chemistry SS</string>
+
+
+
+
+    <string name="main_equalize">Уравнять реакцию</string>
+    <string name="main_mm">Вычислить молекулярную массу</string>
+    <string name="main_table">Таблица Менделеева</string>
+    <string name="main_info">Полезная информация</string>
+    <string name="main_search">Поиск формулы по названию</string>
+
+    <string name="main_search_1">Введите название соединения</string>
+    <string name="main_search_buttons">Кнопки для ввода валентности</string>
+
+    <string name="main_help">Помощь</string>
+    <string name="main_contacts">Контакты</string>
+    <string name="main_inDev">Разделы в разработке</string>
+
+    <string name="email_che">chemistrySS.help@gmail.com</string>
+
+    <string name="help_1">О разделе \"УРАВНЯТЬ РЕАКЦИЮ\"</string>
+    <string name="help_2">О разделе \"ВЫЧИСЛИТЬ МОЛЕКУЛЯРНУЮ МАССУ\"</string>
+    <string name="help_3">О разделе \"ТАБЛИЦА МЕНДЕЛЕЕВА\"</string>
+    <string name="help_4">О разделе \"ПОЛЕЗНАЯ ИНФОРМАЦИЯ\"</string>
+    <string name="help_7">О разделе \"ПОИСК ФОРМУЛЫ ПО НАЗВАНИЮ\"</string>
+    <string name="help_5">Остались вопросы? \nПрисылайте по адресу:</string>
+    <string name="help_6">Мы обязательно ответим!</string>
+
+
+
+    <string name="help_equalize_theory">В уравнении химической реакции для выравнивания количества одинаковых
+        атомов в левой и правой частях уравнения используются коэффициенты, которые
+        записываются перед формулами веществ. Коэффициент показывает количество вещества,
+        участвующего в данной реакции.
+    </string>
+
+    <string name="help_equalize_chemystrySS">Chemistry SS позволяет расставить коэффициенты примерно в
+        90% уравнений реакции! Вам нужно просто ввести уравнение реакции без коэффициентов и нажать
+        «УРАВНЯТЬ». Для более удобного ввода символов добавлены кнопки ввода цифр, круглых и
+        квадратных скобок, а также символы «равно» и «плюс». Необходимо вводить элементы в правильном регистре
+        (большие и малые буквы)!
+    </string>
+
+
+    <string name="help_mm_theory">Молекулярная масса - масса молекулы, выраженная в относительных единицах
+        (называемых а.е.м. или дальтон). Эта величина введена для удобства, поскольку действительная
+        масса молекул в общепринятых единицах массы чрезвычайно мала. За единицу молекулярной массы
+        принята 1/12 массы атома изотопа углерода-12, условно равная 12.
+    </string>
+
+    <string name="help_mm_chemystrySS">Chemistry SS рассчитывает молекулярные массы даже сложных
+        соединений и выдает как точное значение, так и округленное. Для более удобного ввода
+        символов добавлены кнопки ввода цифр, круглых и квадратных скобок. Необходимо вводить элементы в правильном регистре
+        (большие и малые буквы)!
+    </string>
+
+
+    <string name="help_table_theory">Таблица Менделеева - таблица для классификации химических
+        элементов, устанавливающая зависимость различных свойств элементов от заряда атомного ядра.
+    </string>
+
+    <string name="help_table_chemystrySS">В Chemistry SS представлено 2 вида таблиц с различным
+        приближением. В обычной таблице хорошо прослеживается принадлежность элемента к определенному
+        периоду и группе. Увеличенная версия таблицы предоставляет дополнительную информацию об атомной массе
+        элемента и агрегатном состоянии при нормальных условиях. Клетки таблицы разукрашены в
+        соответствии с принадлежностью элемента к определенному классу веществ. При нажатии на элемент
+        выводится детальная информация о нем, а также приводится ссылка на соответствующую
+        страницу Wikipedia. Информация есть для каждого из 118 элементов!
+    </string>
+
+
+    <string name="help_info_theory">Раздел содержит много полезной информации по химии в таблицах:</string>
+
+    <string name="help_info_chemystrySS">•Таблица растворимости\n•Электрохимический ряд напряжений металлов
+    \n•Цвет пламени при горении\n•Цвета и области перехода pH индикаторов\n•Характеристические частоты в
+        ИК- спектроскопии\n•Химические сдвиги в спектрах 1Н ЯМР\n•Химические сдвиги в спектрах 13С ЯМР
+    \n•Качественные реакции на катионы\n•Качественные реакции на анионы\n•Качественные реакции на органические соединения
+    </string>
+
+
+    <string name="indev_theory">В настоящее время разрабатываются следующие разделы приложения:
+    </string>
+
+    <string name="indev_chemystrySS">•Учебник по общей, неорганической и органической химии\n•Решение задач\n•Поиск реакций по реагентам или продуктам реакции\n\nТакже раздел полезной информации
+        будет пополнен рядом таблиц.</string>
+
+    <string name="help_search_theory">Приложение содержит около 7000 соединений (неорганические соли, кислоты, основания, оксиды и др. соединения). База данных веществ постоянно пополняется!
+    </string>
+
+    <string name="help_search_chemystrySS">Раздел представляет интерес в первую очеред для школьников и студентов нехимических специальностей, однако он также содержит тривиальные названия и названия достаточно редковстречающихся соединений, поэтому может быть полезен для всех, кто связан с химией. Для ввода можно использовать круглые скобки для указания валентности, например, "Сульфат железа(III)".</string>
+
+    <string name="info_table_sol">Таблица растворимости</string>
+    <string name="info_row_met">Электрохимический ряд напряжений металлов</string>
+    <string name="info_color_flame">Цвет пламени при горении</string>
+    <string name="info_color_indicator">Цвета и области перехода pH индикаторов</string>
+    <string name="info_IK">Характеристические частоты в ИК- спектроскопии</string>
+    <string name="info_H1NMR">Химические сдвиги в спектрах 1Н ЯМР</string>
+    <string name="info_NMR">Химические сдвиги в спектрах 13С ЯМР</string>
+    <string name="info_reactions_cations">Качественные реакции на катионы</string>
+    <string name="info_reactions_anions">Качественные реакции на анионы</string>
+    <string name="info_reactions_organic_comp">Качественные реакции на органические соединения</string>
+    info_reactions_cations
+    <string name="info_IK_name">Характеристические частоты в инфракрасной спектроскопии</string>
+
+
+    <string name="info_H1NMR_nameTable">Таблица химических сдвигов 1Н ЯМР</string>
+
+    <string name="info_H1NMR_1_1">(CH3)4Si</string>
+    <string name="info_H1NMR_1_2">0</string>
+
+    <string name="info_H1NMR_2_1">RCH3</string>
+    <string name="info_H1NMR_2_2">0.8-1.0</string>
+
+    <string name="info_H1NMR_3_1">RCH2R</string>
+    <string name="info_H1NMR_3_2">1.2-1.4</string>
+
+    <string name="info_H1NMR_4_1">R3CH</string>
+    <string name="info_H1NMR_4_2">1.4-1.7</string>
+
+    <string name="info_H1NMR_5_1">R2C=CRCHR2</string>
+    <string name="info_H1NMR_5_2">1.6-2.6</string>
+
+    <string name="info_H1NMR_6_1">RC≡CH</string>
+    <string name="info_H1NMR_6_2">2.0-3.0</string>
+
+    <string name="info_H1NMR_7_1">ArCH3</string>
+    <string name="info_H1NMR_7_2">2.2-2.5</string>
+
+    <string name="info_H1NMR_8_1">ArCH2R</string>
+    <string name="info_H1NMR_8_2">2.3-2.8</string>
+
+    <string name="info_H1NMR_9_1">ROH</string>
+    <string name="info_H1NMR_9_2">0.5-6.0</string>
+
+    <string name="info_H1NMR_10_1">RCH2OH</string>
+    <string name="info_H1NMR_10_2">3.4-4.0</string>
+
+    <string name="info_H1NMR_11_1">RCH2OR</string>
+    <string name="info_H1NMR_11_2">3.3-4.0</string>
+
+    <string name="info_H1NMR_12_1">R2NH</string>
+    <string name="info_H1NMR_12_2">0.5-5.0</string>
+
+    <string name="info_H1NMR_13_1">RC(=O)CH3</string>
+    <string name="info_H1NMR_13_2">2.1-2.3</string>
+
+    <string name="info_H1NMR_14_1">RC(=O)CH2R</string>
+    <string name="info_H1NMR_14_2">2.2-2.6</string>
+
+    <string name="info_H1NMR_15_1">RC(=O)OCH3</string>
+    <string name="info_H1NMR_15_2">3.7-3.9</string>
+
+    <string name="info_H1NMR_16_1">RC(=O)OCH2R</string>
+    <string name="info_H1NMR_16_2">4.1-4.7</string>
+
+    <string name="info_H1NMR_17_1">RCH2I</string>
+    <string name="info_H1NMR_17_2">3.1-3.3</string>
+
+    <string name="info_H1NMR_18_1">RCH2Br</string>
+    <string name="info_H1NMR_18_2">3.4-3.6</string>
+
+    <string name="info_H1NMR_19_1">RCH2Cl</string>
+    <string name="info_H1NMR_19_2">3.6-3.8</string>
+
+     <string name="info_H1NMR_20_1">RCH2F</string>
+    <string name="info_H1NMR_20_2">4.4-4.5</string>
+
+    <string name="info_H1NMR_21_1">ArOH</string>
+    <string name="info_H1NMR_21_2">4.5-4.7</string>
+
+    <string name="info_H1NMR_22_1">R2C=CH2</string>
+    <string name="info_H1NMR_22_2">4.6-5.0</string>
+
+    <string name="info_H1NMR_23_1">R2C=CHR</string>
+    <string name="info_H1NMR_23_2">5.0-5.7</string>
+
+    <string name="info_H1NMR_24_1">ArH</string>
+    <string name="info_H1NMR_24_2">6.5-8.5</string>
+
+    <string name="info_H1NMR_25_1">RC(=O)H</string>
+    <string name="info_H1NMR_25_2">9.5-10.1</string>
+
+    <string name="info_H1NMR_26_1">RC(=O)OH</string>
+    <string name="info_H1NMR_26_2">10-13</string>
+
+
+    <string name="info_C13NMR_nameTable">Таблица химических сдвигов 13C ЯМР</string>
+
+    <string name="info_C13NMR_1_1">RCH3</string>
+    <string name="info_C13NMR_1_2">0-40</string>
+
+    <string name="info_C13NMR_2_1">RCH2R</string>
+    <string name="info_C13NMR_2_2">15-55</string>
+
+    <string name="info_C13NMR_3_1">R3CH</string>
+    <string name="info_C13NMR_3_2">20-60</string>
+
+    <string name="info_C13NMR_4_1">RCH2I</string>
+    <string name="info_C13NMR_4_2">0-40</string>
+
+    <string name="info_C13NMR_5_1">RCH2Br</string>
+    <string name="info_C13NMR_5_2">25-65</string>
+
+    <string name="info_C13NMR_6_1">RCH2Cl</string>
+    <string name="info_C13NMR_6_2">35-80</string>
+
+    <string name="info_C13NMR_7_1">R3CH2OH</string>
+    <string name="info_C13NMR_7_2">40-80</string>
+
+    <string name="info_C13NMR_8_1">R3COR</string>
+    <string name="info_C13NMR_8_2">40-80</string>
+
+    <string name="info_C13NMR_9_1">RC≡CR</string>
+    <string name="info_C13NMR_9_2">65-85</string>
+
+    <string name="info_C13NMR_10_1">R2C=CR2</string>
+    <string name="info_C13NMR_10_2">100-150</string>
+
+    <string name="info_C13NMR_11_1">Aromatic C</string>
+    <string name="info_C13NMR_11_2">110-160</string>
+
+    <string name="info_C13NMR_12_1">RC(=O)OR</string>
+    <string name="info_C13NMR_12_2">160-180</string>
+
+    <string name="info_C13NMR_13_1">RC(=O)NR2</string>
+    <string name="info_C13NMR_13_2">165-180</string>
+
+    <string name="info_C13NMR_14_1">RC(=O)OH</string>
+    <string name="info_C13NMR_14_2">175-185</string>
+
+    <string name="info_C13NMR_15_1">RC(O)H</string>
+    <string name="info_C13NMR_15_2">180-210</string>
+
+    <string name="info_C13NMR_16_1">RC(O)R</string>
+    <string name="info_C13NMR_16_2">180-210</string>
+
+
+
+
+
+
+
+    <string name="info_IK_name_1">Класс вещества</string>
+    <string name="info_IK_name_2">Группа</string>
+    <string name="info_IK_name_3">Диапазон поглощения, 1/см</string>
+    <string name="info_IK_name_4">Интенсивность</string>
+
+    <string name="info_alkane_1">Алканы</string>
+
+    <string name="info_alkane_2_1">C–H вал.</string>
+    <string name="info_alkane_2_2">CH3 деф.\n\n </string>
+    <string name="info_alkane_2_3">CH2 деф.\n </string>
+
+    <string name="info_alkane_3_1">3000—2840</string>
+    <string name="info_alkane_3_2">1470—1430\n1395—1365\n1250—800</string>
+    <string name="info_alkane_3_3">1475—1450\n770—720</string>
+
+    <string name="info_alkane_4_1">переменная</string>
+    <string name="info_alkane_4_2">средняя\nсредняя\nпеременная</string>
+    <string name="info_alkane_4_3">средняя\nсредняя</string>
+
+
+    <string name="info_alkene_1">Алкены</string>
+
+    <string name="info_alkene_2_1">=CH2 вал.</string>
+    <string name="info_alkene_2_2">=CH вал.</string>
+    <string name="info_alkene_2_3">=CH деф.\n </string>
+    <string name="info_alkene_2_4">С=С вал.</string>
+
+    <string name="info_alkene_3_1">3095—3075</string>
+    <string name="info_alkene_3_2">3040—3010</string>
+    <string name="info_alkene_3_3">1420—1290 (плоск.)\n1005—675 (внеплоск.)</string>
+    <string name="info_alkene_3_4">1690—1635</string>
+
+    <string name="info_alkene_4_1">средняя</string>
+    <string name="info_alkene_4_2">средняя</string>
+    <string name="info_alkene_4_3">—\n</string>
+    <string name="info_alkene_4_4">переменная</string>
+
+
+
+    <string name="info_alkyne_1">Алкины</string>
+
+    <string name="info_alkyne_2_1">≡C–H вал.</string>
+    <string name="info_alkyne_2_2">C≡C вал.</string>
+    <string name="info_alkyne_2_3">≡C–H деф.</string>
+
+    <string name="info_alkyne_3_1">3340—3250</string>
+    <string name="info_alkyne_3_2">2260—2100</string>
+    <string name="info_alkyne_3_3">700—600</string>
+
+    <string name="info_alkyne_4_1">сильная</string>
+    <string name="info_alkyne_4_2">слабая</string>
+    <string name="info_alkyne_4_3">сильная</string>
+
+
+
+    <string name="info_alicyclic_1">Алициклические соединения</string>
+
+    <string name="info_alicyclic_2_1">C–H вал.</string>
+    <string name="info_alicyclic_2_2">H–C–H деф.</string>
+    <string name="info_alicyclic_2_3">C=C деф.</string>
+
+    <string name="info_alicyclic_3_1">3090—2860</string>
+    <string name="info_alicyclic_3_2">1470—1430</string>
+    <string name="info_alicyclic_3_3">1780—1610</string>
+
+    <string name="info_alicyclic_4_1">сильная</string>
+    <string name="info_alicyclic_4_2">слабая</string>
+    <string name="info_alicyclic_4_3">переменная</string>
+
+
+
+
+
+    <string name="info_aromatic_1">Ароматические углеводороды</string>
+
+    <string name="info_aromatic_2_1">C–H вал.</string>
+    <string name="info_aromatic_2_2">C–C</string>
+    <string name="info_aromatic_2_3">комбинационная</string>
+
+    <string name="info_aromatic_3_1">3080—3030</string>
+    <string name="info_aromatic_3_2">1625—1575, 1525—1475</string>
+    <string name="info_aromatic_3_3">2000—1650</string>
+
+    <string name="info_aromatic_4_1">—</string>
+    <string name="info_aromatic_4_2">средняя</string>
+    <string name="info_aromatic_4_3">очень слабая</string>
+
+
+
+
+    <string name="info_fluorine_1">Фторорганические соединения</string>
+
+    <string name="info_fluorine_2_1">C–F вал.</string>
+    <string name="info_fluorine_2_2">S–F вал.</string>
+    <string name="info_fluorine_2_3">P–F вал.</string>
+    <string name="info_fluorine_2_4">Si–F вал.</string>
+    <string name="info_fluorine_2_5">B–F вал.</string>
+
+    <string name="info_fluorine_3_1">1400—1000</string>
+    <string name="info_fluorine_3_2">815—755</string>
+    <string name="info_fluorine_3_3">1110—760</string>
+    <string name="info_fluorine_3_4">980—820</string>
+    <string name="info_fluorine_3_5">1500—800</string>
+
+    <string name="info_fluorine_4_1">сильная</string>
+    <string name="info_fluorine_4_2">сильная</string>
+    <string name="info_fluorine_4_3">—</string>
+    <string name="info_fluorine_4_4">—</string>
+    <string name="info_fluorine_4_5">—</string>
+
+
+
+    <string name="info_chlorine_1">Хлорорганические соединения</string>
+
+    <string name="info_chlorine_2_1">C–Cl вал.</string>
+    <string name="info_chlorine_2_2">C–Cl деф.</string>
+    <string name="info_chlorine_2_3">P–Cl вал.</string>
+    <string name="info_chlorine_2_4">Si–Cl вал.</string>
+    <string name="info_chlorine_2_5">B–Cl вал.</string>
+
+    <string name="info_chlorine_3_1">1100—1020, 830—600</string>
+    <string name="info_chlorine_3_2">400—280</string>
+    <string name="info_chlorine_3_3">менее 600</string>
+    <string name="info_chlorine_3_4">менее 625</string>
+    <string name="info_chlorine_3_5">1100—650</string>
+
+    <string name="info_chlorine_4_1">сильная</string>
+    <string name="info_chlorine_4_2">средняя</string>
+    <string name="info_chlorine_4_3">—</string>
+    <string name="info_chlorine_4_4">—</string>
+    <string name="info_chlorine_4_5">—</string>
+
+
+
+    <string name="info_bromine_1">Броморганические соединения</string>
+
+    <string name="info_bromine_2_1">C–Br вал.</string>
+    <string name="info_bromine_2_2">C–Br деф.</string>
+
+    <string name="info_bromine_3_1">1080—1000, 700—500</string>
+    <string name="info_bromine_3_2">350—250</string>
+
+    <string name="info_bromine_4_1">сильная</string>
+    <string name="info_bromine_4_2">средняя</string>
+
+
+
+    <string name="info_iodine_1">Иодорганические соединения</string>
+
+    <string name="info_iodine_2_1">C–I вал.</string>
+    <string name="info_iodine_2_2">C–I деф.</string>
+
+    <string name="info_iodine_3_1">650—450</string>
+    <string name="info_iodine_3_2">300—50</string>
+
+    <string name="info_iodine_4_1">сильная</string>
+    <string name="info_iodine_4_2">средняя</string>
+
+
+
+
+    <string name="info_OH_1">Спирты и фенолы</string>
+
+    <string name="info_OH_2_1">O–H вал.</string>
+    <string name="info_OH_2_2">O–H деф. плоск.</string>
+    <string name="info_OH_2_3">C–O вал.</string>
+    <string name="info_OH_2_4">O–H деф. внеплоск.</string>
+
+    <string name="info_OH_3_1">3650—3200</string>
+    <string name="info_OH_3_2">1450—1200</string>
+    <string name="info_OH_3_3">1260—970</string>
+    <string name="info_OH_3_4">менее 700</string>
+
+    <string name="info_OH_4_1">переменная</string>
+    <string name="info_OH_4_2">средняя</string>
+    <string name="info_OH_4_3">сильная</string>
+    <string name="info_OH_4_4">средняя</string>
+
+
+
+
+    <string name="info_COC_1">Простые эфиры и ацетали</string>
+
+    <string name="info_COC_2_1">C–O–C вал. асим.</string>
+    <string name="info_COC_2_2">C–O–C вал. сим.</string>
+
+    <string name="info_COC_3_1">1310—1000</string>
+    <string name="info_COC_3_2">1055—870</string>
+
+    <string name="info_COC_4_1">сильная</string>
+    <string name="info_COC_4_2">сильная</string>
+
+
+
+
+    <string name="info_COO_1">Пероксиды</string>
+
+    <string name="info_COO_2_1">O–O–H вал.</string>
+    <string name="info_COO_2_2">C–O–O вал.</string>
+    <string name="info_COO_2_3">O–O вал.</string>
+
+    <string name="info_COO_3_1">3450—3200</string>
+    <string name="info_COO_3_2">1200—1000</string>
+    <string name="info_COO_3_3">1000—800</string>
+
+    <string name="info_COO_4_1">переменная</string>
+    <string name="info_COO_4_2">сильная</string>
+    <string name="info_COO_4_3">средняя или слабая</string>
+
+
+
+
+
+    <string name="info_NH2_1">Амины</string>
+
+    <string name="info_NH2_2_1">NH2 вал.</string>
+    <string name="info_NH2_2_2">NH вал.</string>
+    <string name="info_NH2_2_3">NH3+, NH2+, NH+ вал.</string>
+    <string name="info_NH2_2_4">NH2 деф.</string>
+    <string name="info_NH2_2_5">NH деф.</string>
+    <string name="info_NH2_2_6">NH3+, NH2+, NH+ деф.</string>
+    <string name="info_NH2_2_7">C–N вал.</string>
+
+    <string name="info_NH2_3_1">3500—3300</string>
+    <string name="info_NH2_3_2">3450—3300</string>
+    <string name="info_NH2_3_3">3000—2000</string>
+    <string name="info_NH2_3_4">1650—1590, 850—700</string>
+    <string name="info_NH2_3_5">1650—1550, 850—700</string>
+    <string name="info_NH2_3_6">1600—1460</string>
+    <string name="info_NH2_3_7">1400—1000</string>
+
+    <string name="info_NH2_4_1">переменная</string>
+    <string name="info_NH2_4_2">переменная</string>
+    <string name="info_NH2_4_3">средняя</string>
+    <string name="info_NH2_4_4">средняя или слабая</string>
+    <string name="info_NH2_4_5">слабая</string>
+    <string name="info_NH2_4_6">средняя</string>
+    <string name="info_NH2_4_7">средняя</string>
+
+
+    <string name="info_NO2_1">Нитросоединения и нитрозосоединения</string>
+
+    <string name="info_NO2_2_1">NO2 вал. асим.</string>
+    <string name="info_NO2_2_2">NO2 вал. сим.</string>
+    <string name="info_NO2_2_3">N=O вал.\n </string>
+    <string name="info_NO2_2_4">C–N вал.\n </string>
+
+    <string name="info_NO2_3_1">1660—1490</string>
+    <string name="info_NO2_3_2">1390—1260</string>
+    <string name="info_NO2_3_3">1680—1450 (мономеры),\n 1420—1250 (димеры)</string>
+    <string name="info_NO2_3_4">≈850 (алиф. нитрозосоед.),\n ≈1100 (аром. нитрозосоед.)</string>
+
+    <string name="info_NO2_4_1">очень сильная</string>
+    <string name="info_NO2_4_2">cильная</string>
+    <string name="info_NO2_4_3">очень сильная\nочень сильная</string>
+    <string name="info_NO2_4_4">—</string>
+
+
+
+    <string name="info_imines_1">Имины и оксимы</string>
+
+    <string name="info_imines_2_1">C=N вал.</string>
+    <string name="info_imines_2_2">O–H вал.</string>
+    <string name="info_imines_2_3">O–H деф.</string>
+
+    <string name="info_imines_3_1">1690—1520</string>
+    <string name="info_imines_3_2">3600—2700</string>
+    <string name="info_imines_3_3">1475—1315</string>
+
+    <string name="info_imines_4_1">обычно сильная</string>
+    <string name="info_imines_4_2">сильная</string>
+    <string name="info_imines_4_3">—</string>
+
+
+
+    <string name="info_NN_1">Азосоединения</string>
+
+    <string name="info_NN_2_1">N=N вал.</string>
+
+    <string name="info_NN_3_1">1500—1400</string>
+
+    <string name="info_NN_4_1">очень слабая</string>
+
+
+
+
+    <string name="info_CN_1">Нитрилы и изонитрилы</string>
+
+    <string name="info_CN_2_1">C≡N вал.</string>
+
+    <string name="info_CN_3_1">2260—2240</string>
+
+    <string name="info_CN_4_1">средняя или сильная</string>
+
+
+
+
+    <string name="info_CNN_1">Диазосоединения</string>
+
+    <string name="info_CNN_2_1">N+≡N вал.</string>
+    <string name="info_CNN_2_2">C=N+=N вал.</string>
+
+    <string name="info_CNN_3_1">2310—2130</string>
+    <string name="info_CNN_3_2">2050—2010</string>
+
+    <string name="info_CNN_4_1">средняя</string>
+    <string name="info_CNN_4_2">очень сильная</string>
+
+
+
+    <string name="info_OCN_1">Цианаты и изоцианаты</string>
+
+    <string name="info_OCN_2_1">OC≡N вал.</string>
+    <string name="info_OCN_2_2">N=C=O вал. асим.</string>
+    <string name="info_OCN_2_3">N=C=O вал. сим.</string>
+
+    <string name="info_OCN_3_1">2260—2130</string>
+    <string name="info_OCN_3_2">2280—2230</string>
+    <string name="info_OCN_3_3">1450—1380</string>
+
+    <string name="info_OCN_4_1">средняя или сильная</string>
+    <string name="info_OCN_4_2">сильная</string>
+    <string name="info_OCN_4_3">слабая</string>
+
+
+
+    <string name="info_SCN_1">Тиоцианаты и тиоизоцианаты</string>
+
+    <string name="info_SCN_2_1">SC≡N вал.</string>
+    <string name="info_SCN_2_2">C–S вал.</string>
+    <string name="info_SCN_2_3">N=C=S вал. асим.</string>
+    <string name="info_SCN_2_4">N=C=S вал. сим.</string>
+
+    <string name="info_SCN_3_1">2170—2130</string>
+    <string name="info_SCN_3_2">750—550</string>
+    <string name="info_SCN_3_3">2200—2050</string>
+    <string name="info_SCN_3_4">950—650</string>
+
+    <string name="info_SCN_4_1">средняя</string>
+    <string name="info_SCN_4_2">—</string>
+    <string name="info_SCN_4_3">очень сильная</string>
+    <string name="info_SCN_4_4">—</string>
+
+
+
+
+    <string name="info_HS_1">Тиолы и сульфиды</string>
+
+    <string name="info_HS_2_1">S–H вал.</string>
+    <string name="info_HS_2_2">S–H деф.</string>
+    <string name="info_HS_2_3">C–S вал.</string>
+    <string name="info_HS_2_4">S–S вал.</string>
+
+    <string name="info_HS_3_1">2600—2540</string>
+    <string name="info_HS_3_2">915—800</string>
+    <string name="info_HS_3_3">710—570</string>
+    <string name="info_HS_3_4">500</string>
+
+    <string name="info_HS_4_1">слабая</string>
+    <string name="info_HS_4_2">слабая</string>
+    <string name="info_HS_4_3">слабая</string>
+    <string name="info_HS_4_4">слабая</string>
+
+
+
+
+    <string name="info_SO_1">Сульфоксиды и сульфоны</string>
+
+    <string name="info_SO_2_1">S=O вал.</string>
+    <string name="info_SO_2_2">SO2 вал.</string>
+    <string name="info_SO_2_3">S–O вал.</string>
+
+    <string name="info_SO_3_1">1225—980</string>
+    <string name="info_SO_3_2">1420—1000</string>
+    <string name="info_SO_3_3">870—690</string>
+
+    <string name="info_SO_4_1">сильная</string>
+    <string name="info_SO_4_2">очень сильная</string>
+    <string name="info_SO_4_3">переменная</string>
+
+
+
+    <string name="info_COH_1">Альдегиды</string>
+
+    <string name="info_COH_2_1">C–H комб.</string>
+    <string name="info_COH_2_2">C=O вал.</string>
+
+    <string name="info_COH_3_1">2900—2800, 2780—2680</string>
+    <string name="info_COH_3_2">1765—1645</string>
+
+    <string name="info_COH_4_1">слабая</string>
+    <string name="info_COH_4_2">сильная</string>
+
+
+
+
+
+
+    <string name="info_CO_1">Кетоны</string>
+
+    <string name="info_CO_2_1">C=O вал.</string>
+
+    <string name="info_CO_3_1">1775—1650</string>
+
+    <string name="info_CO_4_1">сильная</string>
+
+
+
+    <string name="info_COOH_1">Карбоновые кислоты</string>
+
+    <string name="info_COOH_2_1">COO–H вал.</string>
+    <string name="info_COOH_2_2">C=O вал.</string>
+
+    <string name="info_COOH_3_1">3550—2500</string>
+    <string name="info_COOH_3_2">1800—1650</string>
+
+    <string name="info_COOH_4_1">переменная</string>
+    <string name="info_COOH_4_2">сильная</string>
+
+
+
+
+    <string name="info_COOC_1">Сложные эфиры</string>
+
+    <string name="info_COOC_2_1">C=O вал.</string>
+    <string name="info_COOC_2_2">C–O вал.</string>
+
+    <string name="info_COOC_3_1">1790—1650</string>
+    <string name="info_COOC_3_2">1330—1050</string>
+
+    <string name="info_COOC_4_1">сильная</string>
+    <string name="info_COOC_4_2">сильная</string>
+
+
+
+
+    <string name="info_amides_1">Амиды</string>
+
+    <string name="info_amides_2_1">N–H вал.</string>
+    <string name="info_amides_2_2">C=O вал. (амид I).</string>
+    <string name="info_amides_2_3">N–H деф., N–C=O вал.</string>
+
+    <string name="info_amides_3_1">3500—3100</string>
+    <string name="info_amides_3_2">1740—1630</string>
+    <string name="info_amides_3_3">1630—1510</string>
+
+    <string name="info_amides_4_1">средняя</string>
+    <string name="info_amides_4_2">сильная</string>
+    <string name="info_amides_4_3">сильная</string>
+
+
+
+
+
+    <string name="info_OCOCO_1">Ангидриды карбоновых кислот</string>
+
+    <string name="info_OCOCO_2_1">C=O вал.</string>
+    <string name="info_OCOCO_2_2">C–O–C вал.</string>
+
+    <string name="info_OCOCO_3_1">1870—1770, 1800—1720</string>
+    <string name="info_OCOCO_3_2">1300—900</string>
+
+    <string name="info_OCOCO_4_1">сильная</string>
+    <string name="info_OCOCO_4_2">сильная</string>
+
+
+
+
+
+    <string name="info_CHal_1">Галогенангидриды карбоновых кислот</string>
+
+    <string name="info_CHal_2_1">C=O вал.\n </string>
+    <string name="info_CHal_2_2">C–Hal вал.</string>
+
+    <string name="info_CHal_3_1">1820—1750 вал.\n1900—1870 вал.</string>
+    <string name="info_CHal_3_2">1200—500</string>
+
+    <string name="info_CHal_4_1">сильная\nсильная</string>
+    <string name="info_CHal_4_2">—</string>
+
+
+
+
+
+
+
+    <string name="info_Si_1">Кремнийорганические соединения</string>
+
+    <string name="info_Si_2_1">Si–H вал.</string>
+    <string name="info_Si_2_2">Si–H деф.</string>
+    <string name="info_Si_2_3">Si–O вал.</string>
+    <string name="info_Si_2_4">Si–C вал.</string>
+    <string name="info_Si_2_5">Si–N вал.</string>
+    <string name="info_Si_2_6">Si–F вал.</string>
+    <string name="info_Si_2_7">Si–Cl вал.</string>
+
+    <string name="info_Si_3_1">2250—2090</string>
+    <string name="info_Si_3_2">1010—700</string>
+    <string name="info_Si_3_3">1100—1000, 900–600</string>
+    <string name="info_Si_3_4">850—650</string>
+    <string name="info_Si_3_5">1250—830</string>
+    <string name="info_Si_3_6">980—820</string>
+    <string name="info_Si_3_7">менее 625</string>
+
+    <string name="info_Si_4_1">средняя</string>
+    <string name="info_Si_4_2">сильная</string>
+    <string name="info_Si_4_3">—</string>
+    <string name="info_Si_4_4">—</string>
+    <string name="info_Si_4_5">—</string>
+    <string name="info_Si_4_6">—</string>
+    <string name="info_Si_4_7">—</string>
+
+
+
+
+
+    <string name="info_P_1">Фосфорорганические соединения</string>
+
+    <string name="info_P_2_1">P–H вал.</string>
+    <string name="info_P_2_2">PO–H вал.</string>
+    <string name="info_P_2_3">POH комб.</string>
+    <string name="info_P_2_4">P–O вал.</string>
+    <string name="info_P_2_5">P=O вал.</string>
+    <string name="info_P_2_6">P=N вал.</string>
+    <string name="info_P_2_7">P–C вал.</string>
+    <string name="info_P_2_8">P–H деф.</string>
+
+    <string name="info_P_3_1">2440—2275</string>
+    <string name="info_P_3_2">2700—2650</string>
+    <string name="info_P_3_3">2300—2250</string>
+    <string name="info_P_3_4">1260—855</string>
+    <string name="info_P_3_5">1300—960</string>
+    <string name="info_P_3_6">1500—1170</string>
+    <string name="info_P_3_7">800—700</string>
+    <string name="info_P_3_8">1090—910</string>
+
+    <string name="info_P_4_1">слабая или средняя</string>
+    <string name="info_P_4_2">слабая</string>
+    <string name="info_P_4_3">слабая</string>
+    <string name="info_P_4_4">—</string>
+    <string name="info_P_4_5">сильная</string>
+    <string name="info_P_4_6">—</string>
+    <string name="info_P_4_7">различная</string>
+    <string name="info_P_4_8">сильная</string>
+
+
+
+
+    <string name="info_B_1">Борорганические соединения</string>
+
+    <string name="info_B_2_1">B–H вал.</string>
+    <string name="info_B_2_2">B–O вал.</string>
+    <string name="info_B_2_3">B–OH вал.</string>
+    <string name="info_B_2_4">B–N вал.</string>
+    <string name="info_B_2_5">B–C вал.</string>
+    <string name="info_B_2_6">B–F вал.</string>
+    <string name="info_B_2_7">B–Cl вал.</string>
+
+    <string name="info_B_3_1">2640—2200</string>
+    <string name="info_B_3_2">1380—1310</string>
+    <string name="info_B_3_3">3300—3200</string>
+    <string name="info_B_3_4">1550—1330</string>
+    <string name="info_B_3_5">1240—620</string>
+    <string name="info_B_3_6">1500—800</string>
+    <string name="info_B_3_7">1100—650</string>
+
+    <string name="info_B_4_1">сильная</string>
+    <string name="info_B_4_2">очень сильная</string>
+    <string name="info_B_4_3">—</string>
+    <string name="info_B_4_4">очень сильная</string>
+    <string name="info_B_4_5">сильная</string>
+    <string name="info_B_4_6">—</string>
+    <string name="info_B_4_7">—</string>
+
+
+    <string name="reactionCations_name_table">Таблица качественных реакций на катионы</string>
+    <string name="reactionAnions_name_table">Таблица качественных реакций на анионы</string>
+    <string name="reactionOrganic_name_table">Таблица качественных реакций на органические соединения</string>
+    <string name="reactionCations_name_col_1">Катион</string>
+    <string name="reactionAnions_name_col_1">Анион</string>
+    <string name="reactionOrganic_name_col_1">Соединение</string>
+    <string name="reactionCations_name_col_2">Воздействие или реактив</string>
+    <string name="reactionCations_name_col_3">Наблюдаемая реакция</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="mm_enter">Введите соединение, соблюдая правильный регистр символов</string>
+    <string name="mm_equalize">Вычислить</string>
+
+    <string name="equalize_enter">Введите уравнение реакции без коэффициентов, соблюдая правильный регистр символов</string>
+    <string name="equalize_equalize">Уравнять</string>
+    <string name="equalize_1">1</string>
+    <string name="equalize_2">2</string>
+    <string name="equalize_3">3</string>
+    <string name="equalize_4">4</string>
+    <string name="equalize_5">5</string>
+    <string name="equalize_6">6</string>
+    <string name="equalize_7">7</string>
+    <string name="equalize_8">8</string>
+    <string name="equalize_9">9</string>
+    <string name="equalize_0">0</string>
+    <string name="equalize_equally">=</string>
+    <string name="equalize_plus">+</string>
+    <string name="equalize_skobka1">(</string>
+    <string name="equalize_skobka2">)</string>
+    <string name="equalize_skobka3">[</string>
+    <string name="equalize_skobka4">]</string>
+
+    <string name="search_val1">(I)</string>
+    <string name="search_val2">(II)</string>
+    <string name="search_val3">(III)</string>
+    <string name="search_val4">(IV)</string>
+    <string name="search_val5">(V)</string>
+    <string name="search_val6">(VI)</string>
+    <string name="search_val7">(VII)</string>
+
+
+    <string name="tablemin_group_1">1</string>
+    <string name="tablemin_group_2">2</string>
+    <string name="tablemin_group_3">3</string>
+    <string name="tablemin_group_4">4</string>
+    <string name="tablemin_group_5">5</string>
+    <string name="tablemin_group_6">6</string>
+    <string name="tablemin_group_7">7</string>
+    <string name="tablemin_group_8">8</string>
+    <string name="tablemin_group_9">9</string>
+    <string name="tablemin_group_10">10</string>
+    <string name="tablemin_group_11">11</string>
+    <string name="tablemin_group_12">12</string>
+    <string name="tablemin_group_13">13</string>
+    <string name="tablemin_group_14">14</string>
+    <string name="tablemin_group_15">15</string>
+    <string name="tablemin_group_16">16</string>
+    <string name="tablemin_group_17">17</string>
+    <string name="tablemin_group_18">18</string>
+
+    <string name="tablemin_period_1">1</string>
+    <string name="tablemin_period_2">2</string>
+    <string name="tablemin_period_3">3</string>
+    <string name="tablemin_period_4">4</string>
+    <string name="tablemin_period_5">5</string>
+    <string name="tablemin_period_6">6</string>
+    <string name="tablemin_period_7">7</string>
+
+    <string name="tablemin_55_57">55-57</string>
+
+    <string name="tablemin_89_103">89-103</string>
+
+     
+    <string name="tablemin_1_1">1</string>
+    <string name="tablemin_1_2">H</string>
+    <string name="tablemin_1_3">Водород</string>
+    <string name="tablemin_1_4">1.00795</string>
+
+    <string name="tablemin_2_1">2</string>
+    <string name="tablemin_2_2">He</string>
+    <string name="tablemin_2_3">Гелий</string>
+    <string name="tablemin_2_4">4.0026</string>
+
+    <string name="tablemin_3_1">3</string>
+    <string name="tablemin_3_2">Li</string>
+    <string name="tablemin_3_3">Литий</string>
+    <string name="tablemin_3_4">6.9412</string>
+
+    <string name="tablemin_4_1">4</string>
+    <string name="tablemin_4_2">Be</string>
+    <string name="tablemin_4_3">Бериллий</string>
+    <string name="tablemin_4_4">9.0122</string>
+
+    <string name="tablemin_5_1">5</string>
+    <string name="tablemin_5_2">B</string>
+    <string name="tablemin_5_3">Бор</string>
+    <string name="tablemin_5_4">10.811</string>
+
+    <string name="tablemin_6_1">6</string>
+    <string name="tablemin_6_2">C</string>
+    <string name="tablemin_6_3">Углерод</string>
+    <string name="tablemin_6_4">12.0108</string>
+
+    <string name="tablemin_7_1">7</string>
+    <string name="tablemin_7_2">N</string>
+    <string name="tablemin_7_3">Азот</string>
+    <string name="tablemin_7_4">14.0067</string>
+
+    <string name="tablemin_8_1">8</string>
+    <string name="tablemin_8_2">O</string>
+    <string name="tablemin_8_3">Кислород</string>
+    <string name="tablemin_8_4">15.9994</string>
+
+    <string name="tablemin_9_1">9</string>
+    <string name="tablemin_9_2">F</string>
+    <string name="tablemin_9_3">Фтор</string>
+    <string name="tablemin_9_4">18.99840</string>
+
+    <string name="tablemin_10_1">10</string>
+    <string name="tablemin_10_2">Ne</string>
+    <string name="tablemin_10_3">Неон</string>
+    <string name="tablemin_10_4">20.179</string>
+
+    <string name="tablemin_11_1">11</string>
+    <string name="tablemin_11_2">Na</string>
+    <string name="tablemin_11_3">Натрий</string>
+    <string name="tablemin_11_4">22.9898</string>
+
+    <string name="tablemin_12_1">12</string>
+    <string name="tablemin_12_2">Mg</string>
+    <string name="tablemin_12_3">Магний</string>
+    <string name="tablemin_12_4">24.305</string>
+
+    <string name="tablemin_13_1">13</string>
+    <string name="tablemin_13_2">Al</string>
+    <string name="tablemin_13_3">Алюминий</string>
+    <string name="tablemin_13_4">26.98154</string>
+
+    <string name="tablemin_14_1">14</string>
+    <string name="tablemin_14_2">Si</string>
+    <string name="tablemin_14_3">Кремний</string>
+    <string name="tablemin_14_4">28.086</string>
+
+    <string name="tablemin_15_1">15</string>
+    <string name="tablemin_15_2">P</string>
+    <string name="tablemin_15_3">Фосфор</string>
+    <string name="tablemin_15_4">30.97376</string>
+
+    <string name="tablemin_16_1">16</string>
+    <string name="tablemin_16_2">S</string>
+    <string name="tablemin_16_3">Сера</string>
+    <string name="tablemin_16_4">32.06</string>
+
+    <string name="tablemin_17_1">17</string>
+    <string name="tablemin_17_2">Cl</string>
+    <string name="tablemin_17_3">Хлор</string>
+    <string name="tablemin_17_4">35.453</string>
+
+    <string name="tablemin_18_1">18</string>
+    <string name="tablemin_18_2">Ar</string>
+    <string name="tablemin_18_3">Аргон</string>
+    <string name="tablemin_18_4">39.948</string>
+
+    <string name="tablemin_19_1">19</string>
+    <string name="tablemin_19_2">K</string>
+    <string name="tablemin_19_3">Калий</string>
+    <string name="tablemin_19_4">39.0983</string>
+
+    <string name="tablemin_20_1">20</string>
+    <string name="tablemin_20_2">Ca</string>
+    <string name="tablemin_20_3">Кальций</string>
+    <string name="tablemin_20_4">40.078</string>
+
+    <string name="tablemin_21_1">21</string>
+    <string name="tablemin_21_2">Sc</string>
+    <string name="tablemin_21_3">Скандий</string>
+    <string name="tablemin_21_4">44.95591</string>
+
+    <string name="tablemin_22_1">22</string>
+    <string name="tablemin_22_2">Ti</string>
+    <string name="tablemin_22_3">Титан</string>
+    <string name="tablemin_22_4">47.88</string>
+
+    <string name="tablemin_23_1">23</string>
+    <string name="tablemin_23_2">V</string>
+    <string name="tablemin_23_3">Ванадий</string>
+    <string name="tablemin_23_4">50.9415</string>
+
+    <string name="tablemin_24_1">24</string>
+    <string name="tablemin_24_2">Cr</string>
+    <string name="tablemin_24_3">Хром</string>
+    <string name="tablemin_24_4">51.9961</string>
+
+    <string name="tablemin_25_1">25</string>
+    <string name="tablemin_25_2">Mn</string>
+    <string name="tablemin_25_3">Марганец</string>
+    <string name="tablemin_25_4">54.9380</string>
+
+    <string name="tablemin_26_1">26</string>
+    <string name="tablemin_26_2">Fe</string>
+    <string name="tablemin_26_3">Железо</string>
+    <string name="tablemin_26_4">55.847</string>
+
+    <string name="tablemin_27_1">27</string>
+    <string name="tablemin_27_2">Co</string>
+    <string name="tablemin_27_3">Кобальт</string>
+    <string name="tablemin_27_4">58.9332</string>
+
+    <string name="tablemin_28_1">28</string>
+    <string name="tablemin_28_2">Ni</string>
+    <string name="tablemin_28_3">Никель</string>
+    <string name="tablemin_28_4">58.69</string>
+
+    <string name="tablemin_29_1">29</string>
+    <string name="tablemin_29_2">Cu</string>
+    <string name="tablemin_29_3">Медь</string>
+    <string name="tablemin_29_4">63.546</string>
+
+    <string name="tablemin_30_1">30</string>
+    <string name="tablemin_30_2">Zn</string>
+    <string name="tablemin_30_3">Цинк</string>
+    <string name="tablemin_30_4">65.39</string>
+
+    <string name="tablemin_31_1">31</string>
+    <string name="tablemin_31_2">Ga</string>
+    <string name="tablemin_31_3">Галлий</string>
+    <string name="tablemin_31_4">69.723</string>
+
+    <string name="tablemin_32_1">32</string>
+    <string name="tablemin_32_2">Ge</string>
+    <string name="tablemin_32_3">Германий</string>
+    <string name="tablemin_32_4">72.631</string>
+
+    <string name="tablemin_33_1">33</string>
+    <string name="tablemin_33_2">As</string>
+    <string name="tablemin_33_3">Мышьяк</string>
+    <string name="tablemin_33_4">74.922</string>
+
+    <string name="tablemin_34_1">34</string>
+    <string name="tablemin_34_2">Se</string>
+    <string name="tablemin_34_3">Селен</string>
+    <string name="tablemin_34_4">78.972</string>
+
+    <string name="tablemin_35_1">35</string>
+    <string name="tablemin_35_2">Br</string>
+    <string name="tablemin_35_3">Бром</string>
+    <string name="tablemin_35_4">79.904</string>
+
+    <string name="tablemin_36_1">36</string>
+    <string name="tablemin_36_2">Kr</string>
+    <string name="tablemin_36_3">Криптон</string>
+    <string name="tablemin_36_4">84.798</string>
+
+    <string name="tablemin_37_1">37</string>
+    <string name="tablemin_37_2">Rb</string>
+    <string name="tablemin_37_3">Рубидий</string>
+    <string name="tablemin_37_4">85.4678</string>
+
+    <string name="tablemin_38_1">38</string>
+    <string name="tablemin_38_2">Sr</string>
+    <string name="tablemin_38_3">Стронций</string>
+    <string name="tablemin_38_4">87.62</string>
+
+    <string name="tablemin_39_1">39</string>
+    <string name="tablemin_39_2">Y</string>
+    <string name="tablemin_39_3">Иттрий</string>
+    <string name="tablemin_39_4">88.9059</string>
+
+
+
+    <string name="tablemin_40_1">40</string>
+    <string name="tablemin_40_2">Zr</string>
+    <string name="tablemin_40_3">Цирконий</string>
+    <string name="tablemin_40_4">91.224</string>
+
+    <string name="tablemin_41_1">41</string>
+    <string name="tablemin_41_2">Nb</string>
+    <string name="tablemin_41_3">Ниобий</string>
+    <string name="tablemin_41_4">92.9064</string>
+
+    <string name="tablemin_42_1">42</string>
+    <string name="tablemin_42_2">Mo</string>
+    <string name="tablemin_42_3">Молибден</string>
+    <string name="tablemin_42_4">95.94</string>
+
+    <string name="tablemin_43_1">43</string>
+    <string name="tablemin_43_2">Tc</string>
+    <string name="tablemin_43_3">Технеций</string>
+    <string name="tablemin_43_4">97.9072</string>
+
+    <string name="tablemin_44_1">44</string>
+    <string name="tablemin_44_2">Ru</string>
+    <string name="tablemin_44_3">Рутений</string>
+    <string name="tablemin_44_4">101.07</string>
+
+    <string name="tablemin_45_1">45</string>
+    <string name="tablemin_45_2">Rh</string>
+    <string name="tablemin_45_3">Родий</string>
+    <string name="tablemin_45_4">102.9055</string>
+
+    <string name="tablemin_46_1">46</string>
+    <string name="tablemin_46_2">Pd</string>
+    <string name="tablemin_46_3">Палладий</string>
+    <string name="tablemin_46_4">106.42</string>
+
+    <string name="tablemin_47_1">47</string>
+    <string name="tablemin_47_2">Ag</string>
+    <string name="tablemin_47_3">Серебро</string>
+    <string name="tablemin_47_4">107.8682</string>
+
+    <string name="tablemin_48_1">48</string>
+    <string name="tablemin_48_2">Cd</string>
+    <string name="tablemin_48_3">Кадмий</string>
+    <string name="tablemin_48_4">112.41</string>
+
+    <string name="tablemin_49_1">49</string>
+    <string name="tablemin_49_2">In</string>
+    <string name="tablemin_49_3">Индий</string>
+    <string name="tablemin_49_4">114.82</string>
+
+    <string name="tablemin_50_1">50</string>
+    <string name="tablemin_50_2">Sn</string>
+    <string name="tablemin_50_3">Олово</string>
+    <string name="tablemin_50_4">118.710</string>
+
+    <string name="tablemin_51_1">51</string>
+    <string name="tablemin_51_2">Sb</string>
+    <string name="tablemin_51_3">Сурьма</string>
+    <string name="tablemin_51_4">121.7</string>
+
+    <string name="tablemin_52_1">52</string>
+    <string name="tablemin_52_2">Te</string>
+    <string name="tablemin_52_3">Теллур</string>
+    <string name="tablemin_52_4">127.6</string>
+
+    <string name="tablemin_53_1">53</string>
+    <string name="tablemin_53_2">I</string>
+    <string name="tablemin_53_3">Иод</string>
+    <string name="tablemin_53_4">126.9045</string>
+
+    <string name="tablemin_54_1">54</string>
+    <string name="tablemin_54_2">Xe</string>
+    <string name="tablemin_54_3">Ксенон</string>
+    <string name="tablemin_54_4">131.29</string>
+
+    <string name="tablemin_55_1">55</string>
+    <string name="tablemin_55_2">Ce</string>
+    <string name="tablemin_55_3">Цезий</string>
+    <string name="tablemin_55_4">132.9054</string>
+
+    <string name="tablemin_56_1">56</string>
+    <string name="tablemin_56_2">Ba</string>
+    <string name="tablemin_56_3">Барий</string>
+    <string name="tablemin_56_4">137.33</string>
+
+    <string name="tablemin_57_1">57</string>
+    <string name="tablemin_57_2">La</string>
+    <string name="tablemin_57_3">Лантан</string>
+    <string name="tablemin_57_4">138.9055</string>
+
+    <string name="tablemin_58_1">58</string>
+    <string name="tablemin_58_2">Ce</string>
+    <string name="tablemin_58_3">Церий</string>
+    <string name="tablemin_58_4">140.12</string>
+
+    <string name="tablemin_59_1">59</string>
+    <string name="tablemin_59_2">Pr</string>
+    <string name="tablemin_59_3">Празеодим</string>
+    <string name="tablemin_59_4">140.9077</string>
+
+    <string name="tablemin_60_1">60</string>
+    <string name="tablemin_60_2">Nd</string>
+    <string name="tablemin_60_3">Неодим</string>
+    <string name="tablemin_60_4">144.24</string>
+
+    <string name="tablemin_61_1">61</string>
+    <string name="tablemin_61_2">Pm</string>
+    <string name="tablemin_61_3">Прометий</string>
+    <string name="tablemin_61_4">144.9128</string>
+
+    <string name="tablemin_62_1">62</string>
+    <string name="tablemin_62_2">Sm</string>
+    <string name="tablemin_62_3">Самарий</string>
+    <string name="tablemin_62_4">150.36</string>
+
+    <string name="tablemin_63_1">63</string>
+    <string name="tablemin_63_2">Eu</string>
+    <string name="tablemin_63_3">Европий</string>
+    <string name="tablemin_63_4">151.96</string>
+
+    <string name="tablemin_64_1">64</string>
+    <string name="tablemin_64_2">Gd</string>
+    <string name="tablemin_64_3">Гадолиний</string>
+    <string name="tablemin_64_4">157.25</string>
+
+    <string name="tablemin_65_1">65</string>
+    <string name="tablemin_65_2">Tb</string>
+    <string name="tablemin_65_3">Тербий</string>
+    <string name="tablemin_65_4">159.9254</string>
+
+    <string name="tablemin_66_1">66</string>
+    <string name="tablemin_66_2">Dy</string>
+    <string name="tablemin_66_3">Дубний</string>
+    <string name="tablemin_66_4">162.50</string>
+
+    <string name="tablemin_67_1">67</string>
+    <string name="tablemin_67_2">Ho</string>
+    <string name="tablemin_67_3">Гольмий</string>
+    <string name="tablemin_67_4">164.9304</string>
+
+    <string name="tablemin_68_1">68</string>
+    <string name="tablemin_68_2">Er</string>
+    <string name="tablemin_68_3">Эрбий</string>
+    <string name="tablemin_68_4">167.26</string>
+
+    <string name="tablemin_69_1">69</string>
+    <string name="tablemin_69_2">Tm</string>
+    <string name="tablemin_69_3">Тулий</string>
+    <string name="tablemin_69_4">168.9342</string>
+
+    <string name="tablemin_70_1">70</string>
+    <string name="tablemin_70_2">Yb</string>
+    <string name="tablemin_70_3">Иттербий</string>
+    <string name="tablemin_70_4">173.04</string>
+
+    <string name="tablemin_71_1">71</string>
+    <string name="tablemin_71_2">Lu</string>
+    <string name="tablemin_71_3">Лютеций</string>
+    <string name="tablemin_71_4">174.967</string>
+
+    <string name="tablemin_72_1">72</string>
+    <string name="tablemin_72_2">Hf</string>
+    <string name="tablemin_72_3">Гафний</string>
+    <string name="tablemin_72_4">178.49</string>
+
+    <string name="tablemin_73_1">73</string>
+    <string name="tablemin_73_2">Ta</string>
+    <string name="tablemin_73_3">Тантал</string>
+    <string name="tablemin_73_4">180.9479</string>
+
+    <string name="tablemin_74_1">74</string>
+    <string name="tablemin_74_2">W</string>
+    <string name="tablemin_74_3">Вольфрам</string>
+    <string name="tablemin_74_4">183.85</string>
+
+    <string name="tablemin_75_1">75</string>
+    <string name="tablemin_75_2">Re</string>
+    <string name="tablemin_75_3">Рений</string>
+    <string name="tablemin_75_4">186.207</string>
+
+    <string name="tablemin_76_1">76</string>
+    <string name="tablemin_76_2">Os</string>
+    <string name="tablemin_76_3">Осмий</string>
+    <string name="tablemin_76_4">190.2</string>
+
+    <string name="tablemin_77_1">77</string>
+    <string name="tablemin_77_2">Ir</string>
+    <string name="tablemin_77_3">Иридий</string>
+    <string name="tablemin_77_4">192.22</string>
+
+    <string name="tablemin_78_1">78</string>
+    <string name="tablemin_78_2">Pt</string>
+    <string name="tablemin_78_3">Платина</string>
+    <string name="tablemin_78_4">195.08</string>
+
+    <string name="tablemin_79_1">79</string>
+    <string name="tablemin_79_2">Au</string>
+    <string name="tablemin_79_3">Золото</string>
+    <string name="tablemin_79_4">196.9665</string>
+
+    <string name="tablemin_80_1">80</string>
+    <string name="tablemin_80_2">Hg</string>
+    <string name="tablemin_80_3">Ртуть</string>
+    <string name="tablemin_80_4">200.59</string>
+
+    <string name="tablemin_81_1">81</string>
+    <string name="tablemin_81_2">Tl</string>
+    <string name="tablemin_81_3">Таллий</string>
+    <string name="tablemin_81_4">204.383</string>
+
+    <string name="tablemin_82_1">82</string>
+    <string name="tablemin_82_2">Pb</string>
+    <string name="tablemin_82_3">Свинец</string>
+    <string name="tablemin_82_4">207.2</string>
+
+    <string name="tablemin_83_1">83</string>
+    <string name="tablemin_83_2">Bi</string>
+    <string name="tablemin_83_3">Висмут</string>
+    <string name="tablemin_83_4">208.9804</string>
+
+    <string name="tablemin_84_1">84</string>
+    <string name="tablemin_84_2">Po</string>
+    <string name="tablemin_84_3">Полоний</string>
+    <string name="tablemin_84_4">208.9824</string>
+
+    <string name="tablemin_85_1">85</string>
+    <string name="tablemin_85_2">At</string>
+    <string name="tablemin_85_3">Астат</string>
+    <string name="tablemin_85_4">209.9871</string>
+
+    <string name="tablemin_86_1">86</string>
+    <string name="tablemin_86_2">Rn</string>
+    <string name="tablemin_86_3">Радон</string>
+    <string name="tablemin_86_4">222.0254</string>
+
+    <string name="tablemin_87_1">87</string>
+    <string name="tablemin_87_2">Fr</string>
+    <string name="tablemin_87_3">Франций</string>
+    <string name="tablemin_87_4">223.0197</string>
+
+    <string name="tablemin_88_1">88</string>
+    <string name="tablemin_88_2">Ra</string>
+    <string name="tablemin_88_3">Радий</string>
+    <string name="tablemin_88_4">226.0254</string>
+
+    <string name="tablemin_89_1">89</string>
+    <string name="tablemin_89_2">Ac</string>
+    <string name="tablemin_89_3">Актиний</string>
+    <string name="tablemin_89_4">227.0278</string>
+
+    <string name="tablemin_90_1">90</string>
+    <string name="tablemin_90_2">Th</string>
+    <string name="tablemin_90_3">Торий</string>
+    <string name="tablemin_90_4">232.0381</string>
+
+    <string name="tablemin_91_1">91</string>
+    <string name="tablemin_91_2">Pa</string>
+    <string name="tablemin_91_3">Протактиний</string>
+    <string name="tablemin_91_4">231.0359</string>
+
+    <string name="tablemin_92_1">92</string>
+    <string name="tablemin_92_2">U</string>
+    <string name="tablemin_92_3">Уран</string>
+    <string name="tablemin_92_4">238.0289</string>
+
+    <string name="tablemin_93_1">93</string>
+    <string name="tablemin_93_2">Np</string>
+    <string name="tablemin_93_3">Нептуний</string>
+    <string name="tablemin_93_4">237.0482</string>
+
+    <string name="tablemin_94_1">94</string>
+    <string name="tablemin_94_2">Pu</string>
+    <string name="tablemin_94_3">Плутоний</string>
+    <string name="tablemin_94_4">244.0642</string>
+
+    <string name="tablemin_95_1">95</string>
+    <string name="tablemin_95_2">Am</string>
+    <string name="tablemin_95_3">Америций</string>
+    <string name="tablemin_95_4">243.0614</string>
+
+    <string name="tablemin_96_1">96</string>
+    <string name="tablemin_96_2">Cm</string>
+    <string name="tablemin_96_3">Кюрий</string>
+    <string name="tablemin_96_4">247.0703</string>
+
+    <string name="tablemin_97_1">97</string>
+    <string name="tablemin_97_2">Bk</string>
+    <string name="tablemin_97_3">Берклий</string>
+    <string name="tablemin_97_4">247</string>
+
+    <string name="tablemin_98_1">98</string>
+    <string name="tablemin_98_2">Cf</string>
+    <string name="tablemin_98_3">Калифорний</string>
+    <string name="tablemin_98_4">251.0796</string>
+
+    <string name="tablemin_99_1">99</string>
+    <string name="tablemin_99_2">Es</string>
+    <string name="tablemin_99_3">Эйнштейний</string>
+    <string name="tablemin_99_4">252.0828</string>
+
+    <string name="tablemin_100_1">100</string>
+    <string name="tablemin_100_2">Fm</string>
+    <string name="tablemin_100_3">Фермий</string>
+    <string name="tablemin_100_4">257.0951</string>
+
+    <string name="tablemin_101_1">101</string>
+    <string name="tablemin_101_2">Md</string>
+    <string name="tablemin_101_3">Менделевий</string>
+    <string name="tablemin_101_4">258.0986</string>
+
+    <string name="tablemin_102_1">102</string>
+    <string name="tablemin_102_2">No</string>
+    <string name="tablemin_102_3">Нобелий</string>
+    <string name="tablemin_102_4">259.1009</string>
+
+    <string name="tablemin_103_1">103</string>
+    <string name="tablemin_103_2">Lr</string>
+    <string name="tablemin_103_3">лоуренсий</string>
+    <string name="tablemin_103_4">260.1054</string>
+
+    <string name="tablemin_104_1">104</string>
+    <string name="tablemin_104_2">Rf</string>
+    <string name="tablemin_104_3">Резерфордий</string>
+    <string name="tablemin_104_4">261</string>
+
+    <string name="tablemin_105_1">105</string>
+    <string name="tablemin_105_2">Db</string>
+    <string name="tablemin_105_3">Дубний</string>
+    <string name="tablemin_105_4">268</string>
+
+    <string name="tablemin_106_1">106</string>
+    <string name="tablemin_106_2">Sg</string>
+    <string name="tablemin_106_3">Сиборгий</string>
+    <string name="tablemin_106_4">271</string>
+
+    <string name="tablemin_107_1">107</string>
+    <string name="tablemin_107_2">Bh</string>
+    <string name="tablemin_107_3">Борий</string>
+    <string name="tablemin_107_4">272</string>
+
+    <string name="tablemin_108_1">108</string>
+    <string name="tablemin_108_2">Hs</string>
+    <string name="tablemin_108_3">Хассий</string>
+    <string name="tablemin_108_4">269</string>
+
+    <string name="tablemin_109_1">109</string>
+    <string name="tablemin_109_2">Mt</string>
+    <string name="tablemin_109_3">Мейтнерий</string>
+    <string name="tablemin_109_4">267</string>
+
+    <string name="tablemin_110_1">110</string>
+    <string name="tablemin_110_2">Ds</string>
+    <string name="tablemin_110_3">Дармштадтий</string>
+    <string name="tablemin_110_4">281</string>
+
+    <string name="tablemin_111_1">111</string>
+    <string name="tablemin_111_2">Rg</string>
+    <string name="tablemin_111_3">Рентгений</string>
+    <string name="tablemin_111_4">281</string>
+
+    <string name="tablemin_112_1">112</string>
+    <string name="tablemin_112_2">Cn</string>
+    <string name="tablemin_112_3">Коперниций</string>
+    <string name="tablemin_112_4">285</string>
+
+    <string name="tablemin_113_1">113</string>
+    <string name="tablemin_113_2">Nh</string>
+    <string name="tablemin_113_3">Нихоний</string>
+    <string name="tablemin_113_4">286</string>
+
+    <string name="tablemin_114_1">114</string>
+    <string name="tablemin_114_2">Fl</string>
+    <string name="tablemin_114_3">Флеровий</string>
+    <string name="tablemin_114_4">289</string>
+
+    <string name="tablemin_115_1">115</string>
+    <string name="tablemin_115_2">Mc</string>
+    <string name="tablemin_115_3">Московий</string>
+    <string name="tablemin_115_4">289</string>
+
+    <string name="tablemin_116_1">116</string>
+    <string name="tablemin_116_2">Lv</string>
+    <string name="tablemin_116_3">Ливерморий</string>
+    <string name="tablemin_116_4">293</string>
+
+    <string name="tablemin_117_1">117</string>
+    <string name="tablemin_117_2">Ts</string>
+    <string name="tablemin_117_3">Теннессин</string>
+    <string name="tablemin_117_4">294</string>
+
+    <string name="tablemin_118_1">118</string>
+    <string name="tablemin_118_2">Og</string>
+    <string name="tablemin_118_3">Оганесон</string>
+    <string name="tablemin_118_4">294</string>
+
+
+
+     
+    <string name="tablemin_alkaliM">Щелочные металлы</string>
+    <string name="tablemin_EM">Щелочноземельные металлы</string>
+    <string name="tablemin_M1">Переходные металлы</string>
+    <string name="tablemin_M2">Полуметаллы</string>
+    <string name="tablemin_M3">Лантаноиды</string>
+    <string name="tablemin_M4">Актиноиды</string>
+    <string name="tablemin_NM">Неметаллы</string>
+    <string name="tablemin_Hal">Галогены</string>
+    <string name="tablemin_noble">Благородные газы</string>
+
+    <string name="tablemin_incr">Увеличить таблицу</string>
+
+    <string name="table_solid">Твердый</string>
+    <string name="table_gas">Газообразный</string>
+    <string name="table_liq">Жидкий</string>
+    <string name="table_non">Неизвестно</string>
+     
+
+
+
+
+
+
+    <string name="reactions_cations_1_1">H+</string>
+    <string name="reactions_cations_1_2">Индикаторы: лакмус, метиловый оранжевый</string>
+    <string name="reactions_cations_1_3">Красное окрашивание</string>
+
+    <string name="reactions_cations_2_1">NH4+</string>
+    <string name="reactions_cations_2_2">1)Щелочь, нагрев\n2)Реактив Несслера K2[HgI4] в щелочной среде</string>
+    <string name="reactions_cations_2_3">1)Запах аммиака: \nNH4+ + OH- = NH3 + H2O\n2) Образуется оранжево-коричневый осадок</string>
+
+    <string name="reactions_cations_3_1">Li+</string>
+    <string name="reactions_cations_3_2">Пламя</string>
+    <string name="reactions_cations_3_3">Карминово- красное окрашивание</string>
+
+    <string name="reactions_cations_4_1">Na+</string>
+    <string name="reactions_cations_4_2">1)Пламя\n2)Микрокристаллоскопическая реакция с цинкуранилацетатом  Zn(UO2)3(C2H3O2)8 </string>
+    <string name="reactions_cations_4_3">1)Желтое окрашивание\n2)образуется зелетовато-желтый кристаллический осадок, имеющий форму тетраэдров или октаэдров Na+ + Zn(UO2)3(C2H3O2)8 + CH3COO- + 9H2O = NaZn(UO2)3(C2H3O2)9*9H2O</string>
+
+    <string name="reactions_cations_5_1">K+</string>
+    <string name="reactions_cations_5_2">1)Пламя\n2)Реакция с кобальтинитритом натрия Na3[Co(NO2)6]</string>
+    <string name="reactions_cations_5_3">1)Фиолетовое окрашивание
+     \n2) Образуется желтый  кристаллический осадок:\n
+2K+ + Na+ + [Co(NO2)6]3- = K2Na[Co(NO2)6]</string>
+
+    <string name="reactions_cations_6_1">Ca2+</string>
+    <string name="reactions_cations_6_2">1)Пламя\n2)Реакция с  щавелевокислым аммонием (оксалат аммония) в уксуснокислом растворе\n3Микрокристаллоскопическая реакция с H2SO4)</string>
+    <string name="reactions_cations_6_3">1)Кирпично- красное окрашивание\n2) Образуется белый кристаллический осадок (в отсутствие Ва2+ и Sr2+) \nCaCl2 + (NH4)2C2O4 = 2NH4Cl + CaC2O4\n3) Образование  характерной формы кристаллов в виде длинных игл или пластинок  </string>
+
+    <string name="reactions_cations_7_1">Sr2+</string>
+    <string name="reactions_cations_7_2">Пламя</string>
+    <string name="reactions_cations_7_3">Карминово- красное окрашивание</string>
+
+    <string name="reactions_cations_8_1">Ba+</string>
+    <string name="reactions_cations_8_2">1)Пламя\n2)Сульфат ион SO4(2-)\n3)Реакция в уксуснокислой среде с хроматом калия  К2СrО4  или  К2Cr2O7 + CH3COONa</string>
+    <string name="reactions_cations_8_3">1)Желто-зеленое окрашивание\n2)Выпадение белого осадка, не растворимого в кислотах: \nВа2+ + S04(2-) = BaS04\n3)Образуется ярко-желтый осадок  хромата бария</string>
+
+    <string name="reactions_cations_9_1">Cu+</string>
+    <string name="reactions_cations_9_2">1)Цвет раствора\n2)Цвет пламени\n3)Сероводород\n4)Гидроксиды щелочных металлов
+    </string>
+    <string name="reactions_cations_9_3">1)Растворы солей Сu2+ окрашены в голубой цвет\n
+                                          2)Cu2+ окрашивает пламя в зеленый цвет\n
+    3) Образуется черный осадок сульфида меди CuS;Осадок нерастворим в соляной и серной кислотах, но растворяется в горячей конц. НNO3.
+    \n4) Выпадает голубой  осадок  Сu(OH)2, который при нагревании дегидратируется и превращается в черный осадок оксида меди CuO.
+    Гидроксид меди растворяется в концентрированных растворах аммиака, образуя аммиакат меди интенсивно синего цвета (реактив Швейцера; растворяет целлюлозу):
+    Cu(OH)2 + 4NH3 = [Cu(NH3)4]2+ + 2OH-</string>
+
+    <string name="reactions_cations_10_1">Аg+</string>
+    <string name="reactions_cations_10_2">1)Cl-\n2)Сероводород </string>
+    <string name="reactions_cations_10_3">1) Выпадает белый творожистый осадок, растворимый в аммиаке, при подкислении HNO3 аммиачного раствора снова выпадает белый осадок\n2) Выпадает черный сульфид серебра</string>
+
+    <string name="reactions_cations_11_1">РЬ2+</string>
+    <string name="reactions_cations_11_2">S2-</string>
+    <string name="reactions_cations_11_3">Выпадение черного осадка: \nPb2+ + S2- = PbS</string>
+
+    <string name="reactions_cations_12_1">Fe2+</string>
+    <string name="reactions_cations_12_2">Гексациано-феррат (III) калия (красная кровяная соль),K3[Fe(CN)6]</string>
+    <string name="reactions_cations_12_3">Выпадение синего осадка турнбулевой сини:\n
+К+ + Fe2+ + [Fe(CN)6]3- = KFe[Fe(CN)6]4</string>
+
+    <string name="reactions_cations_13_1">Fe3+</string>
+    <string name="reactions_cations_13_2">1) Гексацианоферрат (II) калия K4[Fe(CN)6] (желтая кровяная соль)\n2) Гидроксиды щелочных металлов и NH4OH\nРоданид калия или аммония </string>
+    <string name="reactions_cations_13_3">1) Образуется темно-синий осадок берлинской лазури:\n4K4[Fe(CN)6] + 4Fe3+ = 12К+ + 4КFeIII[FeII(CN)6]\n2) Образуется гидроксид железа (III)  красно-бурого цвета, растворимый в кислотах и нерастворимый в избытке щелочей (отличие от гидроксидов алюминия и хрома).\n3) Появляется кроваво-красное окрашивание раствора</string>
+
+
+    <string name="reactions_cations_14_1">Al3+</string>
+    <string name="reactions_cations_14_2">1) Гидроксиды щелочных металлов\n2) Прокаливание гидроксида алюминия с солью кобальта\n3)Оксихинолин\n4) Ализарин красный S, Хинализарин или Алюминон </string>
+    <string name="reactions_cations_14_3">1) Образуется белый студенистый осадок Al(OH)3, растворимый в кислотах с образованием соли соответствующей кислоты; он также растворим в растворах щелочей с образованием комплексных ионов [Al(OH)4]-. В отличие от гидроксида цинка, Al(OH)3 не растворяется в NH4OH\n2) Cинее  окрашивание  (“тенарова синь” - Со(AlO2)2).\n3)Образуется желтый осадок\n3)Образуется красный осадок</string>
+
+    <string name="reactions_cations_15_1">Ni2+</string>
+    <string name="reactions_cations_15_2">1) Гидроксид натрия\n2) Сероводород\n3) Диметилглиоксим (реактив Чугаева)</string>
+    <string name="reactions_cations_15_3">1) Образуется бледно-зеленый студенистый осадок Ni(OH)2. Осадок растворим в кислотах и в NH4OH и нерастворим в избытке щелочи.\n2) Черный осадок сульфида никеля образуется при рН 4 – 5.\n3) Образуется красно-фиолетовый осадок</string>
+
+
+
+
+
+    <string name="reactions_anions_0_1">ОН-</string>
+    <string name="reactions_anions_0_2">индикаторы: 1)лакмус\n2)фенолфталеин</string>
+    <string name="reactions_anions_0_3">1)синее окрашивание\n2)малиновое окрашивание</string>
+
+    <string name="reactions_anions_1_1">N03-</string>
+    <string name="reactions_anions_1_2">1) конц. H2SO4 и Сu, нагрев\n2)  смесь
+H2S04 +FeSO4</string>
+    <string name="reactions_anions_1_3">1) Образование голубого раствора, содержащего ионы Сu2+, выделение газа бурого цвета (NO2)\n2) Возникновение окраски сульфата нитрозо-железа (II) [Fe(H20)5NO]2+. Окраска от фиолетовой до коричневой (реакция «бурого кольца»)</string>
+
+    <string name="reactions_anions_2_1">S04(2-)</string>
+    <string name="reactions_anions_2_2">Ва2+</string>
+    <string name="reactions_anions_2_3">Выпадение белого осадка, нерастворимого в кислотах:\nВа2+ + S04(2-) = BaS04</string>
+
+    <string name="reactions_anions_3_1">РО4(3-)</string>
+    <string name="reactions_anions_3_2">Ag+</string>
+    <string name="reactions_anions_3_3">Выпадение светло-желтого осадка в нейтральной среде: \nЗАg+ + Р04(3-) = Аg3Р04</string>
+
+    <string name="reactions_anions_4_1">СrO4(2-)</string>
+    <string name="reactions_anions_4_2">Ва2+</string>
+    <string name="reactions_anions_4_3">Выпадоние желтого осадка, не раствори­мого в уксусной кислоте, но растворимого в HCI: \nВа2+ + СrO4(2-) = BaCr04</string>
+
+    <string name="reactions_anions_5_1">S2-</string>
+    <string name="reactions_anions_5_2">РЬ2+</string>
+    <string name="reactions_anions_5_3">Выпадение черного осадка: \nPb2+ + S2- = PbS</string>
+
+    <string name="reactions_anions_6_1">СО3(2-)</string>
+    <string name="reactions_anions_6_2">Са2+</string>
+    <string name="reactions_anions_6_3">Выпадение белого осадка, растворимого в
+кислотах: \nСа2+ + С03(2-) = СаСОз</string>
+
+    <string name="reactions_anions_7_1">SO3(2-)</string>
+    <string name="reactions_anions_7_2">Ва2+</string>
+    <string name="reactions_anions_7_3">Появление характерного запаха S02: \n2Н+ + SO3(2-) = Н20 + S02</string>
+
+    <string name="reactions_anions_8_1">F-</string>
+    <string name="reactions_anions_8_2">Са2+</string>
+    <string name="reactions_anions_8_3">Выпадение-белого осадка: \nСа2+ + 2F- = CaF2</string>
+
+    <string name="reactions_anions_9_1">Cl-</string>
+    <string name="reactions_anions_9_2">Аg+</string>
+    <string name="reactions_anions_9_3">Выпадение белого осадка, не растворимого в HN03, но растворимого в конц. NH3 • Н20: \nАg+ + CI- = AgCl
+\nAgCI + 2(NH3• Н20) = [Ag(NH3)2]+ + CI- + 2Н2О</string>
+
+    <string name="reactions_anions_10_1">Br-</string>
+    <string name="reactions_anions_10_2">Аg+</string>
+    <string name="reactions_anions_10_3">Выпадение светло-желтого осадка, не растворимого в HN03: \nAg+ + Br- = AgBr \nосадок темнеет на свету</string>
+
+    <string name="reactions_anions_11_1">I-</string>
+    <string name="reactions_anions_11_2">Аg+</string>
+    <string name="reactions_anions_11_3">Выпадение желтого осадка, не растворимого в HNO3 и NH3 конц.: \nАg+ + I- = АgI \nосадок темнеет на свету</string>
+
+
+
+
+
+
+
+
+    <string name="reactions_organic_1_1">Алканы</string>
+    <string name="reactions_organic_1_2">Пламя</string>
+    <string name="reactions_organic_1_3">Обычно определяют путем исключения.\nНизшие алканы горят голубоватым пламенем</string>
+
+    <string name="reactions_organic_2_1">Алкены</string>
+    <string name="reactions_organic_2_2">1)Бромная вода\n2)р-р КМп04\n3)Горение</string>
+    <string name="reactions_organic_2_3">1)Обесцвечивание раствора.\n2)Обесцвечивание раствора, выпадение бурого осадка Мn02 \n3)Горят-слегка желтоватым пламенем (частицы углерода).</string>
+
+
+    <string name="reactions_organic_3_1">Бензол</string>
+    <string name="reactions_organic_3_2">Горение</string>
+    <string name="reactions_organic_3_3">Обычно определяют путем исключения.\n
+Горит коптящим пламенем.</string>
+
+
+    <string name="reactions_organic_4_1">Фенол</string>
+    <string name="reactions_organic_4_2">1)Бромная вода\n2) р-р Na2СО3\n3)FeCI3</string>
+    <string name="reactions_organic_4_3">1)Обесцвечивание, выпадение белого осадка трибромфенола \n2)Выделение углекислого газа. \n3)Фиолетовое окрашивание.</string>
+
+
+    <string name="reactions_organic_5_1">Спирты</string>
+    <string name="reactions_organic_5_2">1)Na \n2)Горение\n3)Черная горячая
+прокаленная Сu-проволока</string>
+    <string name="reactions_organic_5_3">1)Выделение водорода.\n2)Горят светлым голубоватым пламенем.\n3)Восстановление красной окраски у прокаленной горячей медной проволоки.</string>
+
+
+    <string name="reactions_organic_6_1">Многоатомные спирты</string>
+    <string name="reactions_organic_6_2">Сu(ОН)2 + NaOH</string>
+    <string name="reactions_organic_6_3">Синее окрашивание — образование глицератов и др.</string>
+
+
+    <string name="reactions_organic_7_1">Амины</string>
+    <string name="reactions_organic_7_2">1)Лакмус\n2)HHal</string>
+    <string name="reactions_organic_7_3">1)В водном растворе — синее окрашивание.\n2)Образуют соли с галогеноводородами — после выпаривания твердый осадок.</string>
+
+
+    <string name="reactions_organic_8_1">Анилин</string>
+    <string name="reactions_organic_8_2">1)Бромная вода\n2)HHal</string>
+    <string name="reactions_organic_8_3">1)Обесцвечивание бромной воды, выпадение осадка триброманилина. \n2)После упаривания твердый осадок — соль гидрогалогенида анилина.</string>
+
+
+    <string name="reactions_organic_9_1">Альдегиды</string>
+    <string name="reactions_organic_9_2">1)Ag20\n2)Сu(ОН)2</string>
+    <string name="reactions_organic_9_3">1)Реакция серебряного зеркала\n2)Выпадение красного осадка Cu20</string>
+
+
+    <string name="reactions_organic_10_1">Карбоновые кислоты</string>
+    <string name="reactions_organic_10_2">Лакмус</string>
+    <string name="reactions_organic_10_3">Красное окрашивание
+Муравьиная — реакция серебряного зеркала
+Олеиновая — обесцвечивание бромной воды</string>
+
+    <string name="reactions_organic_11_1">Крахмал</string>
+    <string name="reactions_organic_11_2">Раствор l2 в KI или спиртовой раствор иода</string>
+    <string name="reactions_organic_11_3">Синее окрашивание</string>
+
+
+    <string name="reactions_organic_12_1">Белки</string>
+    <string name="reactions_organic_12_2">
+конц. HNO3</string>
+    <string name="reactions_organic_12_3">Желтое окрашивание, при добавлении щелочного раствора — оранжевое</string>
+
+    <string name="search">Соединение не найдено(</string>
+
+    <string name="result_error_equalize">Введенного уравнения реакции не существует(</string>
+    <string name="result_error_notbd">К сожалению, в настоящее время уравнение реакции не может быть уравнено( Мы работаем над этим, уже сейчас приложение способно уравнивать около 95% уравнений реакций.</string>
 </resources>

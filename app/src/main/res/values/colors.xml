@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <color name="nameApp">#1E90FF</color>
+
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="background_color">#858585</color>
+    <color name="background_color_green">#7FFF00</color>
+    <color name="background_color_biryz">#30D5C8</color>
+    <color name="background_color_lanthanoids">#30D5C8</color>
+    <color name="background_color_izum">#50C878</color>
+    <color name="background_color_alkaliMetals">#7FFF00</color>
+    <color name="background_color_alkalineEM">#D7DF01</color>
+    <color name="background_color_transitionMetals">#FE9A2E</color>
+    <color name="background_color_poorMetals">#FFFF00</color>
+    <color name="background_color_actinoids">#FA5858</color>
+    <color name="background_color_nonmetals">#50C878</color>
+    <color name="background_color_nobleGases">#00FFFF</color>
+    <color name="background_color_h">#BDBDBD</color>
+    <color name="background_color_liquid">#0000FF</color>
+    <color name="background_color_unknows">#21610B</color>
+    <color name="background_color_buttoms">#63C2EB</color>
+    <color name="background_color_halogens">#63C2EB</color>
+    <color name="text_color_property">#1E90FF</color>
+    <color name="text_color_property2">#0040FF</color>
+    <color name="text_color_value">#63C2EB</color>
+    <color name="main_button">#FFFFFF</color>
+    <color name="main_button_grey">#DCDCDC</color>
 </resources>
